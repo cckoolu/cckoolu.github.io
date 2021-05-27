@@ -1,0 +1,3108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.15">
+<meta name="author" content="盧">
+<title>小盧的自我修养</title>
+<style>
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+/* ========================================================================== HTML5 display definitions ========================================================================== */
+/** Correct `block` display not defined in IE 8/9. */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+
+/** Correct `inline-block` display not defined in IE 8/9. */
+audio, canvas, video { display: inline-block; }
+
+/** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
+audio:not([controls]) { display: none; height: 0; }
+
+/** Address `[hidden]` styling not present in IE 8/9. Hide the `template` element in IE, Safari, and Firefox < 22. */
+[hidden], template { display: none; }
+
+script { display: none !important; }
+
+/* ========================================================================== Base ========================================================================== */
+/** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+
+/** Remove default margin. */
+body { margin: 0; }
+
+/* ========================================================================== Links ========================================================================== */
+/** Remove the gray background color from active links in IE 10. */
+a { background: transparent; }
+
+/** Address `outline` inconsistency between Chrome and other browsers. */
+a:focus { outline: thin dotted; }
+
+/** Improve readability when focused and also mouse hovered in all browsers. */
+a:active, a:hover { outline: 0; }
+
+/* ========================================================================== Typography ========================================================================== */
+/** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome. */
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/** Address styling not present in IE 8/9, Safari 5, and Chrome. */
+abbr[title] { border-bottom: 1px dotted; }
+
+/** Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */
+b, strong { font-weight: bold; }
+
+/** Address styling not present in Safari 5 and Chrome. */
+dfn { font-style: italic; }
+
+/** Address differences between Firefox and other browsers. */
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+/** Address styling not present in IE 8/9. */
+mark { background: #ff0; color: #000; }
+
+/** Correct font family set oddly in Safari 5 and Chrome. */
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+
+/** Improve readability of pre-formatted text in all browsers. */
+pre { white-space: pre-wrap; }
+
+/** Set consistent quote types. */
+q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/** Address inconsistent and variable font size in all browsers. */
+small { font-size: 80%; }
+
+/** Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+/* ========================================================================== Embedded content ========================================================================== */
+/** Remove border when inside `a` element in IE 8/9. */
+img { border: 0; }
+
+/** Correct overflow displayed oddly in IE 9. */
+svg:not(:root) { overflow: hidden; }
+
+/* ========================================================================== Figures ========================================================================== */
+/** Address margin not present in IE 8/9 and Safari 5. */
+figure { margin: 0; }
+
+/* ========================================================================== Forms ========================================================================== */
+/** Define consistent border, margin, and padding. */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+/** 1. Correct `color` not being inherited in IE 8/9. 2. Remove padding so people aren't caught out if they zero out fieldsets. */
+legend { border: 0; /* 1 */ padding: 0; /* 2 */ }
+
+/** 1. Correct font family not being inherited in all browsers. 2. Correct font size not being inherited in all browsers. 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome. */
+button, input, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 2 */ margin: 0; /* 3 */ }
+
+/** Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
+button, input { line-height: normal; }
+
+/** Address inconsistent `text-transform` inheritance for `button` and `select`. All other form control elements do not inherit `text-transform` values. Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+. Correct `select` style inheritance in Firefox 4+ and Opera. */
+button, select { text-transform: none; }
+
+/** 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls. 2. Correct inability to style clickable `input` types in iOS. 3. Improve usability and consistency of cursor style between image-type `input` and others. */
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ }
+
+/** Re-set default cursor for disabled elements. */
+button[disabled], html input[disabled] { cursor: default; }
+
+/** 1. Address box sizing set to `content-box` in IE 8/9. 2. Remove excess padding in IE 8/9. */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome. 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome (include `-moz` to future-proof). */
+input[type="search"] { -webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box; }
+
+/** Remove inner padding and search cancel button in Safari 5 and Chrome on OS X. */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** Remove inner padding and border in Firefox 4+. */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/** 1. Remove default vertical scrollbar in IE 8/9. 2. Improve readability and alignment in all browsers. */
+textarea { overflow: auto; /* 1 */ vertical-align: top; /* 2 */ }
+
+/* ========================================================================== Tables ========================================================================== */
+/** Remove most spacing between table cells. */
+table { border-collapse: collapse; border-spacing: 0; }
+
+meta.foundation-mq-small { font-family: "only screen and (min-width: 768px)"; width: 768px; }
+
+meta.foundation-mq-medium { font-family: "only screen and (min-width:1280px)"; width: 1280px; }
+
+meta.foundation-mq-large { font-family: "only screen and (min-width:1440px)"; width: 1440px; }
+
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body { font-size: 100%; }
+
+body { background: white; color: rgba(0, 0, 0, 0.8); padding: 0; margin: 0; font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
+
+a:hover { cursor: pointer; }
+
+img, object, embed { max-width: 100%; height: auto; }
+
+object, embed { height: 100%; }
+
+img { -ms-interpolation-mode: bicubic; }
+
+#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object { max-width: none !important; }
+
+.left { float: left !important; }
+
+.right { float: right !important; }
+
+.text-left { text-align: left !important; }
+
+.text-right { text-align: right !important; }
+
+.text-center { text-align: center !important; }
+
+.text-justify { text-align: justify !important; }
+
+.hide { display: none; }
+
+.antialiased, body { -webkit-font-smoothing: antialiased; }
+
+img { display: inline-block; vertical-align: middle; }
+
+textarea { height: auto; min-height: 50px; }
+
+select { width: 100%; }
+
+object, svg { display: inline-block; vertical-align: middle; }
+
+.center { margin-left: auto; margin-right: auto; }
+
+.spread { width: 100%; }
+
+p.lead, .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { font-size: 1.21875em; line-height: 1.6; }
+
+.subheader, .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { line-height: 1.45; color: #7a2518; font-weight: normal; margin-top: 0; margin-bottom: 0.25em; }
+
+/* Typography resets */
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; direction: ltr; }
+
+/* Default Link Styles */
+a { color: #2156a5; text-decoration: underline; line-height: inherit; }
+a:hover, a:focus { color: #1d4b8f; }
+a img { border: none; }
+
+/* Default paragraph styles */
+p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; text-rendering: optimizeLegibility; }
+p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
+
+/* Default header styles */
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Open Sans", "DejaVu Sans", sans-serif; font-weight: 300; font-style: normal; color: #ba3925; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.0125em; }
+h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: #e99b8f; line-height: 0; }
+
+h1 { font-size: 2.125em; }
+
+h2 { font-size: 1.6875em; }
+
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; }
+
+h4 { font-size: 1.125em; }
+
+h5 { font-size: 1.125em; }
+
+h6 { font-size: 1em; }
+
+hr { border: solid #ddddd8; border-width: 1px 0 0; clear: both; margin: 1.25em 0 1.1875em; height: 0; }
+
+/* Helpful Typography Defaults */
+em, i { font-style: italic; line-height: inherit; }
+
+strong, b { font-weight: bold; line-height: inherit; }
+
+small { font-size: 60%; line-height: inherit; }
+
+code { font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace; font-weight: normal; color: rgba(0, 0, 0, 0.9); }
+
+/* Lists */
+ul, ol, dl { font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; list-style-position: outside; font-family: inherit; }
+
+ul, ol { margin-left: 1.5em; }
+ul.no-bullet, ol.no-bullet { margin-left: 1.5em; }
+
+/* Unordered Lists */
+ul li ul, ul li ol { margin-left: 1.25em; margin-bottom: 0; font-size: 1em; /* Override nested font-size change */ }
+ul.square li ul, ul.circle li ul, ul.disc li ul { list-style: inherit; }
+ul.square { list-style-type: square; }
+ul.circle { list-style-type: circle; }
+ul.disc { list-style-type: disc; }
+ul.no-bullet { list-style: none; }
+
+/* Ordered Lists */
+ol li ul, ol li ol { margin-left: 1.25em; margin-bottom: 0; }
+
+/* Definition Lists */
+dl dt { margin-bottom: 0.3125em; font-weight: bold; }
+dl dd { margin-bottom: 1.25em; }
+
+/* Abbreviations */
+abbr, acronym { text-transform: uppercase; font-size: 90%; color: rgba(0, 0, 0, 0.8); border-bottom: 1px dotted #dddddd; cursor: help; }
+
+abbr { text-transform: none; }
+
+/* Blockquotes */
+blockquote { margin: 0 0 1.25em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #dddddd; }
+blockquote cite { display: block; font-size: 0.9375em; color: rgba(0, 0, 0, 0.6); }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited { color: rgba(0, 0, 0, 0.6); }
+
+blockquote, blockquote p { line-height: 1.6; color: rgba(0, 0, 0, 0.85); }
+
+/* Microformats */
+.vcard { display: inline-block; margin: 0 0 1.25em 0; border: 1px solid #dddddd; padding: 0.625em 0.75em; }
+.vcard li { margin: 0; display: block; }
+.vcard .fn { font-weight: bold; font-size: 0.9375em; }
+
+.vevent .summary { font-weight: bold; }
+.vevent abbr { cursor: auto; text-decoration: none; font-weight: bold; border: none; padding: 0 0.0625em; }
+
+@media only screen and (min-width: 768px) { h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { line-height: 1.2; }
+  h1 { font-size: 2.75em; }
+  h2 { font-size: 2.3125em; }
+  h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; }
+  h4 { font-size: 1.4375em; } }
+/* Tables */
+table { background: white; margin-bottom: 1.25em; border: solid 1px #dedede; }
+table thead, table tfoot { background: #f7f8f7; font-weight: bold; }
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: rgba(0, 0, 0, 0.8); text-align: left; }
+table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; color: rgba(0, 0, 0, 0.8); }
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f8f8f7; }
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.6; }
+
+body { tab-size: 4; }
+
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { line-height: 1.2; word-spacing: -0.05em; }
+h1 strong, h2 strong, h3 strong, #toctitle strong, .sidebarblock > .content > .title strong, h4 strong, h5 strong, h6 strong { font-weight: 400; }
+
+.clearfix:before, .clearfix:after, .float-group:before, .float-group:after { content: " "; display: table; }
+.clearfix:after, .float-group:after { clear: both; }
+
+*:not(pre) > code { font-size: 0.9375em; font-style: normal !important; letter-spacing: 0; padding: 0.1em 0.5ex; word-spacing: -0.15em; background-color: #f7f7f8; -webkit-border-radius: 4px; border-radius: 4px; line-height: 1.45; text-rendering: optimizeSpeed; border: 1px dashed #2f6fab;}
+
+pre {border: 1px dashed gray;}
+
+pre, pre > code { line-height: 1.45; color: rgba(0, 0, 0, 0.9); font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace; font-weight: normal; text-rendering: optimizeSpeed;}
+
+.keyseq { color: rgba(51, 51, 51, 0.8); }
+
+kbd { font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace; display: inline-block; color: rgba(0, 0, 0, 0.8); font-size: 0.65em; line-height: 1.45; background-color: #f7f7f7; border: 1px solid #ccc; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; margin: 0 0.15em; padding: 0.2em 0.5em; vertical-align: middle; position: relative; top: -0.1em; white-space: nowrap; }
+
+.keyseq kbd:first-child { margin-left: 0; }
+
+.keyseq kbd:last-child { margin-right: 0; }
+
+.menuseq, .menu { color: rgba(0, 0, 0, 0.8); }
+
+b.button:before, b.button:after { position: relative; top: -1px; font-weight: normal; }
+
+b.button:before { content: "["; padding: 0 3px 0 2px; }
+
+b.button:after { content: "]"; padding: 0 2px 0 3px; }
+
+p a > code:hover { color: rgba(0, 0, 0, 0.9); }
+
+#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5em; *zoom: 1; position: relative; padding-left: 0.9375em; padding-right: 0.9375em; }
+#header:before, #header:after, #content:before, #content:after, #footnotes:before, #footnotes:after, #footer:before, #footer:after { content: " "; display: table; }
+#header:after, #content:after, #footnotes:after, #footer:after { clear: both; }
+
+#content { margin-top: 1.25em; }
+
+#content:before { content: none; }
+
+#header > h1:first-child { color: rgba(0, 0, 0, 0.85); margin-top: 2.25rem; margin-bottom: 0; }
+#header > h1:first-child + #toc { margin-top: 8px; border-top: 1px solid #ddddd8; }
+#header > h1:only-child, body.toc2 #header > h1:nth-last-child(2) { border-bottom: 1px solid #ddddd8; padding-bottom: 8px; }
+#header .details { border-bottom: 1px solid #ddddd8; line-height: 1.45; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.25em; color: rgba(0, 0, 0, 0.6); display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-flow: row wrap; -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+#header .details span:first-child { margin-left: -0.125em; }
+#header .details span.email a { color: rgba(0, 0, 0, 0.85); }
+#header .details br { display: none; }
+#header .details br + span:before { content: "\00a0\2013\00a0"; }
+#header .details br + span.author:before { content: "\00a0\22c5\00a0"; color: rgba(0, 0, 0, 0.85); }
+#header .details br + span#revremark:before { content: "\00a0|\00a0"; }
+#header #revnumber { text-transform: capitalize; }
+#header #revnumber:after { content: "\00a0"; }
+
+#content > h1:first-child:not([class]) { color: rgba(0, 0, 0, 0.85); border-bottom: 1px solid #ddddd8; padding-bottom: 8px; margin-top: 0; padding-top: 1rem; margin-bottom: 1.25rem; }
+
+#toc { border-bottom: 1px solid #efefed; padding-bottom: 0.5em; }
+#toc > ul { margin-left: 0.125em; }
+#toc ul.sectlevel0 > li > a { font-style: italic; }
+#toc ul.sectlevel0 ul.sectlevel1 { margin: 0.5em 0; }
+#toc ul { font-family: "Open Sans", "DejaVu Sans", sans-serif; list-style-type: none; }
+#toc li { line-height: 1.3334; margin-top: 0.3334em; }
+#toc a { text-decoration: none; }
+#toc a:active { text-decoration: underline; }
+
+#toctitle { color: #7a2518; font-size: 1.2em; }
+
+@media only screen and (min-width: 768px) { #toctitle { font-size: 1.375em; }
+  body.toc2 { padding-left: 15em; padding-right: 0; }
+  #toc.toc2 { margin-top: 0 !important; background-color: #f8f8f7; position: fixed; width: 15em; left: 0; top: 0; border-right: 1px solid #efefed; border-top-width: 0 !important; border-bottom-width: 0 !important; z-index: 1000; padding: 1.25em 1em; height: 100%; overflow: auto; }
+  #toc.toc2 #toctitle { margin-top: 0; margin-bottom: 0.8rem; font-size: 1.2em; }
+  #toc.toc2 > ul { font-size: 0.9em; margin-bottom: 0; }
+  #toc.toc2 ul ul { margin-left: 0; padding-left: 1em; }
+  #toc.toc2 ul.sectlevel0 ul.sectlevel1 { padding-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+  body.toc2.toc-right { padding-left: 0; padding-right: 15em; }
+  body.toc2.toc-right #toc.toc2 { border-right-width: 0; border-left: 1px solid #efefed; left: auto; right: 0; } }
+@media only screen and (min-width: 1280px) { body.toc2 { padding-left: 20em; padding-right: 0; }
+  #toc.toc2 { width: 20em; }
+  #toc.toc2 #toctitle { font-size: 1.375em; }
+  #toc.toc2 > ul { font-size: 0.95em; }
+  #toc.toc2 ul ul { padding-left: 1.25em; }
+  body.toc2.toc-right { padding-left: 0; padding-right: 20em; } }
+#content #toc { border-style: solid; border-width: 1px; border-color: #e0e0dc; margin-bottom: 1.25em; padding: 1.25em; background: #f8f8f7; -webkit-border-radius: 4px; border-radius: 4px; }
+#content #toc > :first-child { margin-top: 0; }
+#content #toc > :last-child { margin-bottom: 0; }
+
+#footer { max-width: 100%; background-color: rgba(0, 0, 0, 0.8); padding: 1.25em; }
+
+#footer-text { color: rgba(255, 255, 255, 0.8); line-height: 1.44; }
+
+.sect1 { padding-bottom: 0.625em; }
+
+@media only screen and (min-width: 768px) { .sect1 { padding-bottom: 1.25em; } }
+.sect1 + .sect1 { border-top: 1px solid #efefed; }
+
+#content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor, .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor { position: absolute; z-index: 1001; width: 1.5ex; margin-left: -1.5ex; display: block; text-decoration: none !important; visibility: hidden; text-align: center; font-weight: normal; }
+#content h1 > a.anchor:before, h2 > a.anchor:before, h3 > a.anchor:before, #toctitle > a.anchor:before, .sidebarblock > .content > .title > a.anchor:before, h4 > a.anchor:before, h5 > a.anchor:before, h6 > a.anchor:before { content: "\00A7"; font-size: 0.85em; display: block; padding-top: 0.1em; }
+#content h1:hover > a.anchor, #content h1 > a.anchor:hover, h2:hover > a.anchor, h2 > a.anchor:hover, h3:hover > a.anchor, #toctitle:hover > a.anchor, .sidebarblock > .content > .title:hover > a.anchor, h3 > a.anchor:hover, #toctitle > a.anchor:hover, .sidebarblock > .content > .title > a.anchor:hover, h4:hover > a.anchor, h4 > a.anchor:hover, h5:hover > a.anchor, h5 > a.anchor:hover, h6:hover > a.anchor, h6 > a.anchor:hover { visibility: visible; }
+#content h1 > a.link, h2 > a.link, h3 > a.link, #toctitle > a.link, .sidebarblock > .content > .title > a.link, h4 > a.link, h5 > a.link, h6 > a.link { color: #ba3925; text-decoration: none; }
+#content h1 > a.link:hover, h2 > a.link:hover, h3 > a.link:hover, #toctitle > a.link:hover, .sidebarblock > .content > .title > a.link:hover, h4 > a.link:hover, h5 > a.link:hover, h6 > a.link:hover { color: #a53221; }
+
+.audioblock, .imageblock, .literalblock, .listingblock, .stemblock, .videoblock { margin-bottom: 1.25em; }
+
+.admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-rendering: optimizeLegibility; text-align: left; font-family: "Noto Serif", "DejaVu Serif", serif; font-size: 1rem; font-style: italic; }
+
+table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; }
+
+.paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { color: rgba(0, 0, 0, 0.85); }
+
+table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-size: inherit; }
+
+.admonitionblock > table { border-collapse: separate; border: 0; background: none; width: 100%; }
+.admonitionblock > table td.icon { text-align: center; width: 80px; }
+.admonitionblock > table td.icon img { max-width: none; }
+.admonitionblock > table td.icon .title { font-weight: bold; font-family: "Open Sans", "DejaVu Sans", sans-serif; text-transform: uppercase; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddddd8; color: rgba(0, 0, 0, 0.6); }
+.admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
+
+.exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: white; -webkit-border-radius: 4px; border-radius: 4px; }
+.exampleblock > .content > :first-child { margin-top: 0; }
+.exampleblock > .content > :last-child { margin-bottom: 0; }
+
+.sidebarblock { border-style: solid; border-width: 1px; border-color: #e0e0dc; margin-bottom: 1.25em; padding: 1.25em; background: #f8f8f7; -webkit-border-radius: 4px; border-radius: 4px; }
+.sidebarblock > :first-child { margin-top: 0; }
+.sidebarblock > :last-child { margin-bottom: 0; }
+.sidebarblock > .content > .title { color: #7a2518; margin-top: 0; text-align: center; }
+
+.exampleblock > .content > :last-child > :last-child, .exampleblock > .content .olist > ol > li:last-child > :last-child, .exampleblock > .content .ulist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > ol > li:last-child > :last-child, .sidebarblock > .content > :last-child > :last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-child, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .sidebarblock > .content .qlist > ol > li:last-child > :last-child { margin-bottom: 0; }
+
+.listingblock pre:not(.highlight) {color: white; background: #002b36; }
+
+.literalblock pre, .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint { background: #f7f7f8; }
+.sidebarblock .literalblock pre, .sidebarblock .listingblock pre:not(.highlight), .sidebarblock .listingblock pre[class="highlight"], .sidebarblock .listingblock pre[class^="highlight "], .sidebarblock .listingblock pre.CodeRay, .sidebarblock .listingblock pre.prettyprint { background: #f2f1f1; }
+
+.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { -webkit-border-radius: 4px; border-radius: 4px; word-wrap: break-word; padding: 1em; font-size: 0.8125em; }
+.literalblock pre.nowrap, .literalblock pre[class].nowrap, .listingblock pre.nowrap, .listingblock pre[class].nowrap { overflow-x: auto; white-space: pre; word-wrap: normal; }
+@media only screen and (min-width: 768px) { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 0.90625em; } }
+@media only screen and (min-width: 1280px) { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 1em; } }
+
+.literalblock.output pre { color: #f7f7f8; background-color: rgba(0, 0, 0, 0.9); }
+
+.listingblock pre.highlightjs { padding: 0; }
+.listingblock pre.highlightjs > code { padding: 1em; -webkit-border-radius: 4px; border-radius: 4px; }
+
+.listingblock pre.prettyprint { border-width: 0; }
+
+.listingblock > .content { position: relative; }
+
+.listingblock code[data-lang]:before { display: none; content: attr(data-lang); position: absolute; font-size: 0.75em; top: 0.425rem; right: 0.5rem; line-height: 1; text-transform: uppercase; color: #999; }
+
+.listingblock:hover code[data-lang]:before { display: block; }
+
+.listingblock.terminal pre .command:before { content: attr(data-prompt); padding-right: 0.5em; color: #999; }
+
+.listingblock.terminal pre .command:not([data-prompt]):before { content: "$"; }
+
+table.pyhltable { border-collapse: separate; border: 0; margin-bottom: 0; background: none; }
+
+table.pyhltable td { vertical-align: top; padding-top: 0; padding-bottom: 0; line-height: 1.45; }
+
+table.pyhltable td.code { padding-left: .75em; padding-right: 0; }
+
+pre.pygments .lineno, table.pyhltable td:not(.code) { color: #999; padding-left: 0; padding-right: .5em; border-right: 1px solid #ddddd8; }
+
+pre.pygments .lineno { display: inline-block; margin-right: .25em; }
+
+table.pyhltable .linenodiv { background: none !important; padding-right: 0 !important; }
+
+.quoteblock { margin: 0 1em 1.25em 1.5em; display: table; }
+.quoteblock > .title { margin-left: -1.5em; margin-bottom: 0.75em; }
+.quoteblock blockquote, .quoteblock blockquote p { color: rgba(0, 0, 0, 0.85); font-size: 1.15rem; line-height: 1.75; word-spacing: 0.1em; letter-spacing: 0; font-style: italic; text-align: justify; }
+.quoteblock blockquote { margin: 0; padding: 0; border: 0; }
+.quoteblock blockquote:before { content: "\201c"; float: left; font-size: 2.75em; font-weight: bold; line-height: 0.6em; margin-left: -0.6em; color: #7a2518; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+.quoteblock blockquote > .paragraph:last-child p { margin-bottom: 0; }
+.quoteblock .attribution { margin-top: 0.5em; margin-right: 0.5ex; text-align: right; }
+.quoteblock .quoteblock { margin-left: 0; margin-right: 0; padding: 0.5em 0; border-left: 3px solid rgba(0, 0, 0, 0.6); }
+.quoteblock .quoteblock blockquote { padding: 0 0 0 0.75em; }
+.quoteblock .quoteblock blockquote:before { display: none; }
+
+.verseblock { margin: 0 1em 1.25em 1em; }
+.verseblock pre { font-family: "Open Sans", "DejaVu Sans", sans; font-size: 1.15rem; color: rgba(0, 0, 0, 0.85); font-weight: 300; text-rendering: optimizeLegibility; }
+.verseblock pre strong { font-weight: 400; }
+.verseblock .attribution { margin-top: 1.25rem; margin-left: 0.5ex; }
+
+.quoteblock .attribution, .verseblock .attribution { font-size: 0.9375em; line-height: 1.45; font-style: italic; }
+.quoteblock .attribution br, .verseblock .attribution br { display: none; }
+.quoteblock .attribution cite, .verseblock .attribution cite { display: block; letter-spacing: -0.025em; color: rgba(0, 0, 0, 0.6); }
+
+.quoteblock.abstract { margin: 0 0 1.25em 0; display: block; }
+.quoteblock.abstract blockquote, .quoteblock.abstract blockquote p { text-align: left; word-spacing: 0; }
+.quoteblock.abstract blockquote:before, .quoteblock.abstract blockquote p:first-of-type:before { display: none; }
+
+table.tableblock { max-width: 100%; border-collapse: separate; }
+table.tableblock td > .paragraph:last-child p > p:last-child, table.tableblock th > p:last-child, table.tableblock td > p:last-child { margin-bottom: 0; }
+
+table.tableblock, th.tableblock, td.tableblock { border: 0 solid #dedede; }
+
+table.grid-all th.tableblock, table.grid-all td.tableblock { border-width: 0 1px 1px 0; }
+
+table.grid-all tfoot > tr > th.tableblock, table.grid-all tfoot > tr > td.tableblock { border-width: 1px 1px 0 0; }
+
+table.grid-cols th.tableblock, table.grid-cols td.tableblock { border-width: 0 1px 0 0; }
+
+table.grid-all * > tr > .tableblock:last-child, table.grid-cols * > tr > .tableblock:last-child { border-right-width: 0; }
+
+table.grid-rows th.tableblock, table.grid-rows td.tableblock { border-width: 0 0 1px 0; }
+
+table.grid-all tbody > tr:last-child > th.tableblock, table.grid-all tbody > tr:last-child > td.tableblock, table.grid-all thead:last-child > tr > th.tableblock, table.grid-rows tbody > tr:last-child > th.tableblock, table.grid-rows tbody > tr:last-child > td.tableblock, table.grid-rows thead:last-child > tr > th.tableblock { border-bottom-width: 0; }
+
+table.grid-rows tfoot > tr > th.tableblock, table.grid-rows tfoot > tr > td.tableblock { border-width: 1px 0 0 0; }
+
+table.frame-all { border-width: 1px; }
+
+table.frame-sides { border-width: 0 1px; }
+
+table.frame-topbot { border-width: 1px 0; }
+
+th.halign-left, td.halign-left { text-align: left; }
+
+th.halign-right, td.halign-right { text-align: right; }
+
+th.halign-center, td.halign-center { text-align: center; }
+
+th.valign-top, td.valign-top { vertical-align: top; }
+
+th.valign-bottom, td.valign-bottom { vertical-align: bottom; }
+
+th.valign-middle, td.valign-middle { vertical-align: middle; }
+
+table thead th, table tfoot th { font-weight: bold; }
+
+tbody tr th { display: table-cell; line-height: 1.6; background: #f7f8f7; }
+
+tbody tr th, tbody tr th p, tfoot tr th, tfoot tr th p { color: rgba(0, 0, 0, 0.8); font-weight: bold; }
+
+p.tableblock > code:only-child { background: none; padding: 0; }
+
+p.tableblock { font-size: 1em; }
+
+td > div.verse { white-space: pre; }
+
+ol { margin-left: 1.75em; }
+
+ul li ol { margin-left: 1.5em; }
+
+dl dd { margin-left: 1.125em; }
+
+dl dd:last-child, dl dd:last-child > :last-child { margin-bottom: 0; }
+
+ol > li p, ul > li p, ul dd, ol dd, .olist .olist, .ulist .ulist, .ulist .olist, .olist .ulist { margin-bottom: 0.625em; }
+
+ul.unstyled, ol.unnumbered, ul.checklist, ul.none { list-style-type: none; }
+
+ul.unstyled, ol.unnumbered, ul.checklist { margin-left: 0.625em; }
+
+ul.checklist li > p:first-child > .fa-square-o:first-child, ul.checklist li > p:first-child > .fa-check-square-o:first-child { width: 1em; font-size: 0.85em; }
+
+ul.checklist li > p:first-child > input[type="checkbox"]:first-child { width: 1em; position: relative; top: 1px; }
+
+ul.inline { margin: 0 auto 0.625em auto; margin-left: -1.375em; margin-right: 0; padding: 0; list-style: none; overflow: hidden; }
+ul.inline > li { list-style: none; float: left; margin-left: 1.375em; display: block; }
+ul.inline > li > * { display: block; }
+
+.unstyled dl dt { font-weight: normal; font-style: normal; }
+
+ol.arabic { list-style-type: decimal; }
+
+ol.decimal { list-style-type: decimal-leading-zero; }
+
+ol.loweralpha { list-style-type: lower-alpha; }
+
+ol.upperalpha { list-style-type: upper-alpha; }
+
+ol.lowerroman { list-style-type: lower-roman; }
+
+ol.upperroman { list-style-type: upper-roman; }
+
+ol.lowergreek { list-style-type: lower-greek; }
+
+.hdlist > table, .colist > table { border: 0; background: none; }
+.hdlist > table > tbody > tr, .colist > table > tbody > tr { background: none; }
+
+td.hdlist1, td.hdlist2 { vertical-align: top; padding: 0 0.625em; }
+
+td.hdlist1 { font-weight: bold; padding-bottom: 1.25em; }
+
+.literalblock + .colist, .listingblock + .colist { margin-top: -0.5em; }
+
+.colist > table tr > td:first-of-type { padding: 0 0.75em; line-height: 1; }
+.colist > table tr > td:last-of-type { padding: 0.25em 0; }
+
+.thumb, .th { line-height: 0; display: inline-block; border: solid 4px white; -webkit-box-shadow: 0 0 0 1px #dddddd; box-shadow: 0 0 0 1px #dddddd; }
+
+.imageblock.left, .imageblock[style*="float: left"] { margin: 0.25em 0.625em 1.25em 0; }
+.imageblock.right, .imageblock[style*="float: right"] { margin: 0.25em 0 1.25em 0.625em; }
+.imageblock > .title { margin-bottom: 0; }
+.imageblock.thumb, .imageblock.th { border-width: 6px; }
+.imageblock.thumb > .title, .imageblock.th > .title { padding: 0 0.125em; }
+
+.image.left, .image.right { margin-top: 0.25em; margin-bottom: 0.25em; display: inline-block; line-height: 0; }
+.image.left { margin-right: 0.625em; }
+.image.right { margin-left: 0.625em; }
+
+a.image { text-decoration: none; display: inline-block; }
+a.image object { pointer-events: none; }
+
+sup.footnote, sup.footnoteref { font-size: 0.875em; position: static; vertical-align: super; }
+sup.footnote a, sup.footnoteref a { text-decoration: none; }
+sup.footnote a:active, sup.footnoteref a:active { text-decoration: underline; }
+
+#footnotes { padding-top: 0.75em; padding-bottom: 0.75em; margin-bottom: 0.625em; }
+#footnotes hr { width: 20%; min-width: 6.25em; margin: -0.25em 0 0.75em 0; border-width: 1px 0 0 0; }
+#footnotes .footnote { padding: 0 0.375em 0 0.225em; line-height: 1.3334; font-size: 0.875em; margin-left: 1.2em; text-indent: -1.05em; margin-bottom: 0.2em; }
+#footnotes .footnote a:first-of-type { font-weight: bold; text-decoration: none; }
+#footnotes .footnote:last-of-type { margin-bottom: 0; }
+
+#content #footnotes { margin-top: -0.625em; margin-bottom: 0; padding: 0.75em 0; }
+
+.gist .file-data > table { border: 0; background: #fff; width: 100%; margin-bottom: 0; }
+.gist .file-data > table td.line-data { width: 99%; }
+
+div.unbreakable { page-break-inside: avoid; }
+
+.big { font-size: larger; }
+
+.small { font-size: smaller; }
+
+.underline { text-decoration: underline; }
+
+.overline { text-decoration: overline; }
+
+.line-through { text-decoration: line-through; }
+
+.aqua { color: #00bfbf; }
+
+.aqua-background { background-color: #00fafa; }
+
+.black { color: black; }
+
+.black-background { background-color: black; }
+
+.blue { color: #0000bf; }
+
+.blue-background { background-color: #0000fa; }
+
+.fuchsia { color: #bf00bf; }
+
+.fuchsia-background { background-color: #fa00fa; }
+
+.gray { color: #606060; }
+
+.gray-background { background-color: #7d7d7d; }
+
+.green { color: #006000; }
+
+.green-background { background-color: #007d00; }
+
+.lime { color: #00bf00; }
+
+.lime-background { background-color: #00fa00; }
+
+.maroon { color: #600000; }
+
+.maroon-background { background-color: #7d0000; }
+
+.navy { color: #000060; }
+
+.navy-background { background-color: #00007d; }
+
+.olive { color: #606000; }
+
+.olive-background { background-color: #7d7d00; }
+
+.purple { color: #600060; }
+
+.purple-background { background-color: #7d007d; }
+
+.red { color: #bf0000; }
+
+.red-background { background-color: #fa0000; }
+
+.silver { color: #909090; }
+
+.silver-background { background-color: #bcbcbc; }
+
+.teal { color: #006060; }
+
+.teal-background { background-color: #007d7d; }
+
+.white { color: #bfbfbf; }
+
+.white-background { background-color: #fafafa; }
+
+.yellow { color: #bfbf00; }
+
+.yellow-background { background-color: #fafa00; }
+
+span.icon > .fa { cursor: default; }
+
+.admonitionblock td.icon [class^="fa icon-"] { font-size: 2.5em; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); cursor: default; }
+.admonitionblock td.icon .icon-note:before { content: "\f05a"; color: #19407c; }
+.admonitionblock td.icon .icon-tip:before { content: "\f0eb"; text-shadow: 1px 1px 2px rgba(155, 155, 0, 0.8); color: #111; }
+.admonitionblock td.icon .icon-warning:before { content: "\f071"; color: #bf6900; }
+.admonitionblock td.icon .icon-caution:before { content: "\f06d"; color: #bf3400; }
+.admonitionblock td.icon .icon-important:before { content: "\f06a"; color: #bf0000; }
+
+.conum[data-value] { display: inline-block; color: #fff !important; background-color: rgba(0, 0, 0, 0.8); -webkit-border-radius: 100px; border-radius: 100px; text-align: center; font-size: 0.75em; width: 1.67em; height: 1.67em; line-height: 1.67em; font-family: "Open Sans", "DejaVu Sans", sans-serif; font-style: normal; font-weight: bold; }
+.conum[data-value] * { color: #fff !important; }
+.conum[data-value] + b { display: none; }
+.conum[data-value]:after { content: attr(data-value); }
+pre .conum[data-value] { position: relative; top: -0.125em; }
+
+b.conum * { color: inherit !important; }
+
+.conum:not([data-value]):empty { display: none; }
+
+dt, th.tableblock, td.content, div.footnote { text-rendering: optimizeLegibility; }
+
+h1, h2, p, td.content, span.alt { letter-spacing: -0.01em; }
+
+p strong, td.content strong, div.footnote strong { letter-spacing: -0.005em; }
+
+p, blockquote, dt, td.content, span.alt { font-size: 1.0625rem; }
+
+p { margin-bottom: 1.25rem; }
+
+.sidebarblock p, .sidebarblock dt, .sidebarblock td.content, p.tableblock { font-size: 1em; }
+
+.exampleblock > .content { background-color: #fffef7; border-color: #e0e0dc; -webkit-box-shadow: 0 1px 4px #e0e0dc; box-shadow: 0 1px 4px #e0e0dc; }
+
+.print-only { display: none !important; }
+
+@media print { @page { margin: 1.25cm 0.75cm; }
+  * { -webkit-box-shadow: none !important; box-shadow: none !important; text-shadow: none !important; }
+  a { color: inherit !important; text-decoration: underline !important; }
+  a.bare, a[href^="#"], a[href^="mailto:"] { text-decoration: none !important; }
+  a[href^="http:"]:not(.bare):after, a[href^="https:"]:not(.bare):after { content: "(" attr(href) ")"; display: inline-block; font-size: 0.875em; padding-left: 0.25em; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  pre, blockquote, tr, img, object, svg { page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  svg { max-width: 100%; }
+  p, blockquote, dt, td.content { font-size: 1em; orphans: 3; widows: 3; }
+  h2, h3, #toctitle, .sidebarblock > .content > .title, #toctitle, .sidebarblock > .content > .title { page-break-after: avoid; }
+  #toc, .sidebarblock, .exampleblock > .content { background: none !important; }
+  #toc { border-bottom: 1px solid #ddddd8 !important; padding-bottom: 0 !important; }
+  .sect1 { padding-bottom: 0 !important; }
+  .sect1 + .sect1 { border: 0 !important; }
+  #header > h1:first-child { margin-top: 1.25rem; }
+  body.book #header { text-align: center; }
+  body.book #header > h1:first-child { border: 0 !important; margin: 2.5em 0 1em 0; }
+  body.book #header .details { border: 0 !important; display: block; padding: 0 !important; }
+  body.book #header .details span:first-child { margin-left: 0 !important; }
+  body.book #header .details br { display: block; }
+  body.book #header .details br + span:before { content: none !important; }
+  body.book #toc { border: 0 !important; text-align: left !important; padding: 0 !important; margin: 0 !important; }
+  body.book #toc, body.book #preamble, body.book h1.sect0, body.book .sect1 > h2 { page-break-before: always; }
+  .listingblock code[data-lang]:before { display: block; }
+  #footer { background: none !important; padding: 0 0.9375em; }
+  #footer-text { color: rgba(0, 0, 0, 0.6) !important; font-size: 0.9em; }
+  .hide-on-print { display: none !important; }
+  .print-only { display: block !important; }
+  .hide-for-print { display: none !important; }
+  .show-for-print { display: inherit !important; } }
+
+</style>
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/github.min.css">
+</head>
+<body class="book toc2 toc-left">
+<div id="header">
+<h1>小盧的自我修养</h1>
+<div class="details">
+<span id="author" class="author">盧</span><br>
+<span id="email" class="email"><a href="mailto:cckoolu@gmail.com">cckoolu@gmail.com</a></span><br>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">目录</div>
+<ul class="sectlevel1">
+<li><a href="#_前言">前言</a></li>
+<li><a href="#_Ceph_chapter">1. Ceph</a>
+<ul class="sectlevel2">
+<li><a href="#_centos7_ceph单节点文件系统部署ceph">1.1. Centos7 Ceph单节点文件系统部署ceph</a></li>
+<li><a href="#_centos_stream_8_ceph集群文件系统部署">1.2. centos stream 8 Ceph集群文件系统部署</a></li>
+</ul>
+</li>
+<li><a href="#_redis_chapter">2. redis</a>
+<ul class="sectlevel2">
+<li><a href="#_redis常用命令">2.1. redis常用命令</a></li>
+</ul>
+</li>
+<li><a href="#_mongodb">3. MongoDB</a>
+<ul class="sectlevel2">
+<li><a href="#_mongodb常用命令">3.1. MongoDB常用命令</a></li>
+</ul>
+</li>
+<li><a href="#_elasticsearch">4. elasticsearch</a>
+<ul class="sectlevel2">
+<li><a href="#_elasticsearch常用命令">4.1. elasticsearch常用命令</a></li>
+</ul>
+</li>
+<li><a href="#_kafka">5. kafka</a>
+<ul class="sectlevel2">
+<li><a href="#_kafka基础命令">5.1. kafka基础命令</a></li>
+</ul>
+</li>
+<li><a href="#_rabbitmq">6. rabbitMQ</a>
+<ul class="sectlevel2">
+<li><a href="#_rabbitmq基础命令">6.1. rabbitMQ基础命令</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_前言">前言</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>一本关于个人成长、软件开发、系统运维、产品运营、思维、思考的杂记。</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_Ceph_chapter">1. Ceph</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_centos7_ceph单节点文件系统部署ceph">1.1. Centos7 Ceph单节点文件系统部署ceph</h3>
+<div class="paragraph">
+<p>准备环境
+关闭防火墙、selinux</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>systemctl stop firewalld
+systemctl disable firewalld
+setenforce 0
+echo SELINUX=disabled&gt;/etc/selinux/config
+echo SELINUXTYPE=targeted&gt;&gt;/etc/selinux/config</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>ceph</p>
+</div>
+<div class="paragraph">
+<p>修改主机名</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>HOSTNAME=ceph
+hostnamectl set-hostname ceph
+IP=`ip route |grep src|grep metric|awk -F" " '{ print $9 }'`
+echo "$IP $HOSTNAME" &gt;&gt;/etc/hosts</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>下载 epel 软件包</p>
+</div>
+<div class="paragraph">
+<p><code>yum install -y epel-release</code></p>
+</div>
+<div class="paragraph">
+<p>添加 ceph 源</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &lt;&lt;EOF &gt; /etc/yum.repos.d/ceph.repo
+[ceph]
+name=ceph
+baseurl=http://mirrors.aliyun.com/ceph/rpm-jewel/el7/x86_64/
+gpgcheck=0
+priority =1
+[ceph-noarch]
+name=cephnoarch
+baseurl=http://mirrors.aliyun.com/ceph/rpm-jewel/el7/noarch/
+gpgcheck=0
+priority =1
+[ceph-source]
+name=Ceph source packages
+baseurl=http://mirrors.aliyun.com/ceph/rpm-jewel/el7/SRPMS
+gpgcheck=0
+priority=1
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>设置本机密匙</p>
+</div>
+<div class="paragraph">
+<p><code>ssh-keygen -t rsa -P "" -f ~/.ssh/id_rsa</code></p>
+</div>
+<div class="paragraph">
+<p><code>cat ~/.ssh/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</code></p>
+</div>
+<div class="paragraph">
+<p>ceph 服务初始化</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>yum clean all &amp;&amp;yum -y install ceph-deploy
+
+mkdir /etc/ceph &amp;&amp;cd /etc/ceph
+ceph-deploy new ceph
+
+cp ceph.conf ceph.conf.bak
+sed -i 's@^$@osd_pool_default_size = 1@g' ceph.conf
+echo "mon_pg_warn_max_per_osd = 1000" &gt;&gt; /etc/ceph/ceph.conf
+
+ceph-deploy install ceph</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建monitor服务</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph-deploy mon create ceph
+ceph-deploy  gatherkeys ceph</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>准备osd</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>mkfs.xfs  /dev/sdb
+mkdir -p /var/local/osd
+mount /dev/sdb  /var/local/osd/
+chown -R ceph:ceph /var/local/osd*</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建osd</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-deploy osd prepare ceph:/var/local/osd</code></p>
+</div>
+<div class="paragraph">
+<p>激活osd</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-deploy osd activate ceph:/var/local/osd</code></p>
+</div>
+<div class="paragraph">
+<p>查看状态</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-deploy osd list ceph</code></p>
+</div>
+<div class="paragraph">
+<p>修改配置文件权限</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph-deploy admin ceph
+chmod +r /etc/ceph/*</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>部署mds服务</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph-deploy mds create ceph
+ceph mds stat</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>7.创建ceph文件系统</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph fs ls
+ceph osd pool create cephfs_data 128
+ceph osd pool create cephfs_metadata 128
+ceph fs new cephfs cephfs_metadata cephfs_data
+ceph fs ls</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>查看admin用户的密码</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@ceph ceph]# cat ceph.client.admin.keyring
+[client.admin]
+	key = AQAUimJg+rTfMxAA4f4py+S4FqIQygoZ6VVneg==</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>挂载Ceph文件系统</p>
+</div>
+<div class="paragraph">
+<p><code>mount -t ceph 192.168.2.124:/ /home/ceph/GeeShow/upload.static.geeshow.org -o name=admin,secret=AQAUimJg+rTfMxAA4f4py+S4FqIQygoZ6VVneg==</code></p>
+</div>
+<div class="paragraph">
+<p>本地主机挂载</p>
+</div>
+<div class="paragraph">
+<p><code>mount -t ceph 192.168.2.124:/ /home/lu/test/ -o name=admin,secret=AQAUimJg+rTfMxAA4f4py+S4FqIQygoZ6VVneg==</code></p>
+</div>
+<div class="paragraph">
+<p>jenkins</p>
+</div>
+<div class="paragraph">
+<p>安装jenkins</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &lt;&lt;EOF &gt; /etc/yum.repos.d/jenkinsph.repo
+[jenkins]
+name=Jenkins-stable
+baseurl=http://pkg.jenkins.io/redhat-stable
+gpgcheck=1
+EOF
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo yum upgrade
+sudo yum -y install java-11-openjdk-devel jenkins
+
+sudo systemctl daemon-reload
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl status jenkins</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>添加java环境变量，编辑/etc/profile 文件</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>vim /etc/profile</code></p>
+</div>
+<div class="paragraph">
+<p>在配置文件的末尾添加以下代码</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># JAVA_HOME
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.10.0.9-1.el7_9.x86_64
+JRE_HOME=/usr/lib/jvm/jre-11-openjdk-11.0.10.0.9-1.el7_9.x86_64
+CLASS_PATH=.:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>解决权限问题,使用root用户执行</p>
+</div>
+<div class="paragraph">
+<p>编辑 /etc/sysconfig/jenkins 文件</p>
+</div>
+<div class="paragraph">
+<p><code>vim /etc/sysconfig/jenkins</code></p>
+</div>
+<div class="paragraph">
+<p>找到对应的位置，修改代码</p>
+</div>
+<div class="paragraph">
+<p><code>JENKINS_USER="root"</code></p>
+</div>
+<div class="paragraph">
+<p>重启服务生效</p>
+</div>
+<div class="paragraph">
+<p><code>systemctl restart jenkins</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 查看 jenkins 管理员密码
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
+[root@jenkins yum.repos.d]# cat /var/lib/jenkins/secrets/initialAdminPassword
+45d690ae2fbe49b685e97c37fe7cac90</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>访问地址
+<a href="http://localhost:8080" class="bare">http://localhost:8080</a></p>
+</div>
+<div class="paragraph">
+<p>在网页上输入密码进行基础安装</p>
+</div>
+<div class="paragraph">
+<p>安装git</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>yum -y install git
+
+git config --global user.email "test@qq.com"
+git config --global user.name "testName"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装插件gitee</p>
+</div>
+<div class="paragraph">
+<p><a href="https://gitee.com/help/articles/4193" class="bare">https://gitee.com/help/articles/4193</a></p>
+</div>
+<div class="paragraph">
+<p>webhook 配置</p>
+</div>
+<div class="paragraph">
+<p><a href="https://gitee.com/help/categories/40" class="bare">https://gitee.com/help/categories/40</a></p>
+</div>
+<div class="paragraph">
+<p>frp 配置</p>
+</div>
+<div class="paragraph">
+<p>初始配置</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>wget -c https://github.com/fatedier/frp/releases/download/v0.31.1/frp_0.31.1_linux_amd64.tar.gz
+tar xf frp_0.31.1_linux_amd64.tar.gz
+mv frp_0.31.1_linux_amd64 /usr/local
+ln -s /usr/local/frp_0.31.1_linux_amd64 /usr/local/frp
+
+ln -s /usr/local/frp/frpc /usr/bin/frpc
+ln -s /usr/local/frp/frps /usr/bin/frps
+
+mkdir /etc/frp
+
+useradd -M -s /sbin/nologin frp</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>服务端配置</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &lt;&lt; EOF &gt;  /etc/frp/frps.ini
+[common]
+bind_addr = 0.0.0.0
+bind_port = 4000
+
+privilege_token = geek
+
+max_pool_count = 5
+
+vhost_http_port = 4080
+vhost_https_port = 4443
+
+dashboard_port = 4500
+dashboard_user = admin
+dashboard_pwd = geek
+EOF
+
+
+cp /usr/local/frp/systemd/frps.service /usr/lib/systemd/system/frps.service
+
+systemctl enable frps
+systemctl start frps
+# 查看日志信息
+systemctl  status frps</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>客户端配置</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &lt;&lt; EOF &gt;  /etc/frp/frpc.ini
+[common]
+# 服务器ip、端口
+server_addr = 47.74.2.145
+server_port = 4000
+
+# 客户端ip、端口
+admin_addr = 127.0.0.1
+admin_port = 4000
+
+# 通信token
+privilege_token = geek
+pool_count = 5
+
+[jenkins]
+type = tcp
+local_ip=127.0.0.1
+local_port = 9090
+remote_port = 8181
+EOF
+
+cp /usr/local/frp/systemd/frpc.service /usr/lib/systemd/system/frpc.service
+
+systemctl enable frpc
+systemctl start frpc
+# 查看日志信息
+systemctl  status frpc</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>maven 环境安装</p>
+</div>
+<div class="paragraph">
+<p>下载maven压缩包，如：apache-maven-3.6.3-bin.tar.gz</p>
+</div>
+<div class="paragraph">
+<p>官网链接：http://maven.apache.org/download.cgi</p>
+</div>
+<div class="paragraph">
+<p>`wget <a href="https://mirrors.bfsu.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz" class="bare">https://mirrors.bfsu.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz</a>
+`</p>
+</div>
+<div class="paragraph">
+<p>将文件拷贝到/usr/local目录中并查看文件</p>
+</div>
+<div class="paragraph">
+<p>`cp apache-maven-3.6.3-bin.tar.gz /usr/local/ &amp;&amp; cd /usr/local `</p>
+</div>
+<div class="paragraph">
+<p>解压文件</p>
+</div>
+<div class="paragraph">
+<p>`tar -zxvf apache-maven-3.6.3-bin.tar.gz `</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>编辑/etc/profile 文件</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>vim /etc/profile</code></p>
+</div>
+<div class="paragraph">
+<p>在配置文件的末尾添加以下代码</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># MAVEN_HOME
+MAVEN_HOME=/usr/local/apache-maven-3.6.3
+export MAVEN_HOME
+export PATH=${PATH}:${MAVEN_HOME}/bin</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>使资源文件生效</p>
+</div>
+<div class="paragraph">
+<p><code>source /etc/profile</code></p>
+</div>
+<div class="paragraph">
+<p>检查配置</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>mvn --version
+
+[root@ceph apache-maven-3.6.3]# mvn --version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /usr/local/apache-maven-3.6.3
+Java version: 11.0.10, vendor: Red Hat, Inc., runtime: /usr/lib/jvm/java-11-openjdk-11.0.10.0.9-1.el7_9.x86_64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-1160.21.1.el7.x86_64", arch: "amd64", family: "unix"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>maven 换源</p>
+</div>
+<div class="paragraph">
+<p>`vim /usr/local/apache-maven-3.6.3/conf/settings.xml `</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;mirror&gt;
+    &lt;id&gt;nexus-aliyun&lt;/id&gt;
+    &lt;mirrorOf&gt;central&lt;/mirrorOf&gt;
+    &lt;name&gt;Nexus aliyun&lt;/name&gt;
+    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public&lt;/url&gt;
+&lt;/mirror&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>nginx 安装</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &lt;&lt; EOF &gt; /etc/yum.repos.d/nginx.repo
+[nginx-stable]
+name=nginx stable repo
+baseurl=http://nginx.org/packages/centos/\$releasever/\$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+
+[nginx-mainline]
+name=nginx mainline repo
+baseurl=http://nginx.org/packages/mainline/centos/\$releasever/\$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装Nginx</p>
+</div>
+<div class="paragraph">
+<p><code>yum install -y nginx</code></p>
+</div>
+<div class="paragraph">
+<p>启动nginx，并设置开机启动：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo systemctl start nginx &amp;&amp; sudo systemctl enable nginx</code></p>
+</div>
+<div class="paragraph">
+<p>修改 <code>nginx.conf</code> 文件，在http中添加以下内容</p>
+</div>
+<div class="paragraph">
+<p><code>vim /etc/nginx/nginx.conf</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>server {
+    listen   80 default;
+    server_name master;
+
+    location /mnt     {
+        alias /mnt;
+        autoindex on ;
+        }
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>重载nginx服务</p>
+</div>
+<div class="paragraph">
+<p><code>nginx -s reload</code></p>
+</div>
+<div class="paragraph">
+<p>客户端使用</p>
+</div>
+<div class="paragraph">
+<p><code>sudo pacman -S ceph</code></p>
+</div>
+<div class="paragraph">
+<p><code>mount -t ceph 192.168.2.124:/ /home/user/test/ -o name=admin,secret=AQAUimJg+rTfMxAA4f4py+S4FqIQygoZ6VVneg==</code>
+=== Centos7 Ceph集群文件系统部署</p>
+</div>
+<div class="paragraph">
+<p>ceph 基础环境搭建</p>
+</div>
+<div class="paragraph">
+<p>环境
+| 主机名 |  CEPH组件 | 私网IP |
+| :----: | :-----: | :----: |
+| node 1 | ceph-deploy &amp; mon &amp; osd &amp; ntp | 192.168.2.117  |
+| node2 | mon &amp; mgr &amp; osd &amp; ntp | 192.168.2.119  |
+| node3 | mon &amp; mgr &amp; osd &amp; ntp | 192.168.2.121  |</p>
+</div>
+<div class="paragraph">
+<p>关闭防火墙、selinux</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>systemctl stop firewalld
+systemctl disable firewalld
+setenforce 0
+echo SELINUX=disabled&gt;/etc/selinux/config
+echo SELINUXTYPE=targeted&gt;&gt;/etc/selinux/config</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>修改主机名</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># node1
+sudo hostnamectl set-hostname node1
+
+# node2
+sudo hostnamectl set-hostname node2
+
+# node3
+sudo hostnamectl set-hostname node3</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>修改域名解析文件</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 各节点均设置
+cat &gt;&gt; /etc/hosts &lt;&lt; EOF
+192.168.2.117 node1
+192.168.2.119 node2
+192.168.2.121 node3
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>在主节点配置无密码访问</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ssh-keygen -t rsa
+
+ssh-copy-id -i /root/.ssh/id_rsa.pub root@node2
+
+ssh-copy-id -i /root/.ssh/id_rsa.pub root@node3</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>配置yum源</p>
+</div>
+<div class="paragraph">
+<p>各节点均设置</p>
+</div>
+<div class="paragraph">
+<p>配置基础yum源</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#
+yum clean all
+rm -rf /etc/yum.repos.d/*.repo
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+sed -i '/aliyuncs/d' /etc/yum.repos.d/CentOS-Base.repo
+sed -i '/aliyuncs/d' /etc/yum.repos.d/epel.repo</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>配置ceph源</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#
+cat &gt;&gt; /etc/hosts &lt;&lt; EOF
+[ceph]
+name=ceph
+baseurl=http://mirrors.aliyun.com/ceph/rpm-jewel/el7/x86_64/
+gpgcheck=0
+priority =1
+[ceph-noarch]
+name=cephnoarch
+baseurl=http://mirrors.aliyun.com/ceph/rpm-jewel/el7/noarch/
+gpgcheck=0
+priority =1
+[ceph-source]
+name=Ceph source packages
+baseurl=http://mirrors.aliyun.com/ceph/rpm-jewel/el7/SRPMS
+gpgcheck=0
+priority=1
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>yum clean all &amp;&amp; yum makecache</code></p>
+</div>
+<div class="paragraph">
+<p>配置ntp(各节点)</p>
+</div>
+<div class="paragraph">
+<p>安装ntp</p>
+</div>
+<div class="paragraph">
+<p><code>yum install -y ntp</code></p>
+</div>
+<div class="paragraph">
+<p>查看服务器是否安装ntp</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@node1 ~]# rpm -qa |grep ntp
+ntp-4.2.6p5-29.el7.centos.2.x86_64
+ntpdate-4.2.6p5-29.el7.centos.2.x86_64</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>修改ntp配置文件</p>
+</div>
+<div class="paragraph">
+<p>NTP服务端</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@localhost ~]# vim /etc/ntp.conf
+
+把配置文件下面四行注释掉：
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+
+然后在下面添加这几行：
+server 0.cn.pool.ntp.org iburst
+server 1.cn.pool.ntp.org iburst
+server 2.cn.pool.ntp.org iburst
+server 3.cn.pool.ntp.org iburst</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>NTP客户端</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@localhost ~]# vim /etc/ntp.conf
+
+#配置允许NTP Server时间服务器主动修改本机的时间
+restrict 192.168.2.117 nomodify notrap noquery
+
+#注释掉其他时间服务器
+#server 0.centos.pool.ntp.org iburst
+#server 1.centos.pool.ntp.org iburst
+#server 2.centos.pool.ntp.org iburst
+#server 3.centos.pool.ntp.org iburst
+
+#配置时间服务器为本地搭建的NTP Server服务器
+server 192.168.2.117</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>启动ntp服务，并开机自启动</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>systemctl start ntpd
+systemctl enable ntpd</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>与NTP server服务器同步一下时间(客户端)</p>
+</div>
+<div class="paragraph">
+<p><code>ntpdate -u 192.168.2.117</code></p>
+</div>
+<div class="paragraph">
+<p>查询ntp是否同步</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@node1 ~]# ntpq -p
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ ntp.xtom.nl     131.176.107.13   2 u    2   64    1  269.603  -57.798  48.075
+ ntp1.ams1.nl.le 130.133.1.10     3 u    1   64    1  294.135  -35.074  20.264
+ electrode.felix 56.1.129.236     3 u    2   64    1  269.624  -18.817  16.131
+ sv1.ggsrv.de    205.46.178.169   2 u    1   64    1  294.061  -33.994  24.304
+
+[root@node3 mnt]# ntpq -p
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ node1           185.255.55.20    3 u   52 1024    1    0.622   77.126   0.000</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装Ceph</p>
+</div>
+<div class="paragraph">
+<p>安装ceph(各节点)</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>yum install ceph -y
+
+[root@node1 ~]# ceph -v
+ceph version 10.2.11 (e4b061b47f07f583c92a050d9e84b1813a35671e)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装ceph-deploy(主节点)</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>yum install ceph-deploy -y
+
+[root@node1 ~]# ceph-deploy --version
+1.5.39</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>部署ceph 集群并部署mon</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 创建部署目录
+mkdir cluster &amp;&amp; cd cluster/
+
+# 三个节点都部署mon
+ceph-deploy new node1 node2 node3</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>修改ceph.conf</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 增加以下内容到 /root/cluster/ceph.conf
+
+public_network=192.168.2.0/24
+osd_pool_default_size = 2
+mon_pg_warn_max_per_osd=20000
+
+# 配置初始 monitor(s)、并收集所有密钥
+ceph-deploy mon create-initial
+
+# 把配置文件和 admin 密钥拷贝到管理节点和 Ceph 节点
+ceph-deploy admin ceph-1 ceph-2 ceph-3
+
+# 查看ceph状态
+ceph -s</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建osd</p>
+</div>
+<div class="paragraph">
+<p>挂载磁盘</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 各主机添加一块硬盘用以挂载
+
+# 查看系统硬盘分区情况
+lsblk
+
+# node1
+mkfs.xfs /dev/sdb
+
+mkdir -p /var/local/osd0
+
+mount /dev/sdb /var/local/osd0/
+
+# node2
+mkfs.xfs /dev/sdb
+
+mkdir -p /var/local/osd1
+
+mount /dev/sdb /var/local/osd1/
+
+# node3
+mkfs.xfs /dev/sdb
+
+mkdir -p /var/local/osd2
+
+mount /dev/sdb /var/local/osd2/</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建osd</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-deploy osd prepare node1:/var/local/osd0 node2:/var/local/osd1 node3:/var/local/osd2</code></p>
+</div>
+<div class="paragraph">
+<p>激活osd</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-deploy osd activate node1:/var/local/osd0 node2:/var/local/osd1 node3:/var/local/osd2</code></p>
+</div>
+<div class="paragraph">
+<p>查看状态</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-deploy osd list master node01 node02</code></p>
+</div>
+<div class="paragraph">
+<p>各节点修改ceph.client.admin.keyring权限:</p>
+</div>
+<div class="paragraph">
+<p><code>chmod +r /etc/ceph/ceph.client.admin.keyring</code></p>
+</div>
+<div class="paragraph">
+<p>部署mds</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph-deploy mds create node1 node2 node3
+
+# 查看状态
+
+[root@node1 ~]# ceph mds stat
+e14: 1/1/1 up {0=node3=up:active}, 2 up:standby
+
+[root@node1 ~]# ceph mon stat
+e1: 3 mons at {node1=192.168.2.117:6789/0,node2=192.168.2.119:6789/0,node3=192.168.2.121:6789/0}, election epoch 14, quorum 0,1,2 node1,node2,node3
+
+[root@node1 ~]# systemctl list-unit-files |grep ceph
+ceph-create-keys@.service                     static
+ceph-disk@.service                            static
+ceph-mds@.service                             enabled
+ceph-mon@.service                             enabled
+ceph-osd@.service                             enabled
+ceph-mds.target                               enabled
+ceph-mon.target                               enabled
+ceph-osd.target                               enabled
+ceph.target                                   enabled</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>CEPH 文件系统</p>
+</div>
+<div class="paragraph">
+<p>关于创建存储池确定 pg_num 取值是强制性的，因为不能自动计算。下面是几个常用的值：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>少于 5 个 OSD 时可把 pg_num 设置为 128</p>
+</li>
+<li>
+<p>OSD 数量在 5 到 10 个时，可把 pg_num 设置为 512</p>
+</li>
+<li>
+<p>OSD 数量在 10 到 50 个时，可把 pg_num 设置为 4096</p>
+</li>
+<li>
+<p>OSD 数量大于 50 时，你得理解权衡方法、以及如何自己计算 pg_num 取值</p>
+</li>
+<li>
+<p>自己计算 pg_num 取值时可借助 pgcalc 工具</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>随着 OSD 数量的增加，正确的 pg_num 取值变得更加重要，因为它显著地影响着集群的行为、以及出错时的数据持久性（即灾难性事件导致数据丢失的概率）。</p>
+</div>
+<div class="paragraph">
+<p>创建 CephFS</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 格式
+$ ceph osd pool create cephfs_data &lt;pg_num&gt;
+$ ceph osd pool create cephfs_metadata &lt;pg_num&gt;
+$ ceph fs new &lt;fs_name&gt; &lt;metadata&gt; &lt;data&gt;
+
+ceph osd pool create cephfs_data 128
+
+ceph osd pool create cephfs_metadata 128
+
+ceph fs new cephfs cephfs_metadata cephfs_data
+
+
+# 查看文件系统信息
+ceph fs ls
+
+# 查看mds信息
+ceph mds stat</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>用内核驱动挂载 CEPH 文件系统</p>
+</div>
+<div class="paragraph">
+<p>创建挂载目录</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>`mkdir /ceph/cephfs -pv`</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>挂载启用 cephx 认证的 Ceph 文件系统，你必须指定用户名、密钥</p>
+</div>
+<div class="paragraph">
+<p><code>mount -t ceph node1:6789,node2:6789,node3:6789:/ /ceph/cephfs -o name=admin,secret=AQAXEYlgF+CDFxAAcLlSx3pi6TXTGLrhgWKXXA==</code></p>
+</div>
+<div class="paragraph">
+<p>卸载 Ceph 文件系统</p>
+</div>
+<div class="paragraph">
+<p><code>sudo umount /ceph/cephfs</code></p>
+</div>
+<div class="paragraph">
+<p>注: 各节点挂载后可通过挂载目录进行增删改查</p>
+</div>
+<div class="paragraph">
+<p>客户端通过FUSE方式挂在cephfs</p>
+</div>
+<div class="paragraph">
+<p>创建挂载目录</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>`mkdir /ceph/cephfs -pv`</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>客户端安装ceph-fuse软件包</p>
+</div>
+<div class="paragraph">
+<p><code>yum -y install ceph-fuse</code></p>
+</div>
+<div class="paragraph">
+<p>从服务器端，将客户端密钥复制到/etc/ceph/</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>scp ceph.client.admin.keyring node1:/etc/ceph/
+scp ceph.client.admin.keyring node2:/etc/ceph/
+scp ceph.client.admin.keyring node3:/etc/ceph/</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>挂载cephfs</p>
+</div>
+<div class="paragraph">
+<p><code>ceph-fuse -m node1:6789,node2:6789,node3:6789 /ceph/cephfs/</code></p>
+</div>
+<div class="paragraph">
+<p>nginx 部署</p>
+</div>
+<div class="paragraph">
+<p>添加 nginx yum源</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &lt;&lt; EOF &gt; /etc/yum.repos.d/nginx.repo
+[nginx-stable]
+name=nginx stable repo
+baseurl=http://nginx.org/packages/centos/\$releasever/\$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+
+[nginx-mainline]
+name=nginx mainline repo
+baseurl=http://nginx.org/packages/mainline/centos/\$releasever/\$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装Nginx</p>
+</div>
+<div class="paragraph">
+<p><code>yum install -y nginx</code></p>
+</div>
+<div class="paragraph">
+<p>启动nginx，并设置开机启动：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo systemctl start nginx &amp;&amp; sudo systemctl enable nginx</code></p>
+</div>
+<div class="paragraph">
+<p>修改 <code>nginx.conf</code> 文件，在http中添加以下内容</p>
+</div>
+<div class="paragraph">
+<p><code>vim /etc/nginx/nginx.conf</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>server {
+    listen   80 default;
+    server_name master;
+
+    location /ceph/cephfs     {
+        alias /ceph/cephfs;
+        autoindex on ;
+        }
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>重载nginx服务</p>
+</div>
+<div class="paragraph">
+<p><code>nginx -s reload</code>
+<mark>#</mark> Centos7 CephRGW部署及操作
+Ceph对象存储网关服务(RGW-RADOS Gateway)</p>
+</div>
+<div class="paragraph">
+<p>安装ceph-radosgw</p>
+</div>
+<div class="paragraph">
+<p><code>sudo yum install -y ceph-radosgw</code></p>
+</div>
+<div class="paragraph">
+<p>创建RGW用户和keyring</p>
+</div>
+<div class="paragraph">
+<p>在master上创建keyring：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo ceph-authtool --create-keyring /etc/ceph/ceph.client.radosgw.keyring</code></p>
+</div>
+<div class="paragraph">
+<p><code>sudo chmod +r /etc/ceph/ceph.client.radosgw.keyring</code></p>
+</div>
+<div class="paragraph">
+<p>生成ceph-radosgw服务对应的用户和key：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo ceph-authtool /etc/ceph/ceph.client.radosgw.keyring -n client.radosgw.gateway --gen-key</code></p>
+</div>
+<div class="paragraph">
+<p>为用户添加访问权限：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo ceph-authtool -n client.radosgw.gateway --cap osd 'allow rwx' --cap mon 'allow rwx' /etc/ceph/ceph.client.radosgw.keyring</code></p>
+</div>
+<div class="paragraph">
+<p>导入keyring到集群中：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo ceph -k /etc/ceph/ceph.client.admin.keyring auth add client.radosgw.gateway -i /etc/ceph/ceph.client.radosgw.keyring</code></p>
+</div>
+<div class="paragraph">
+<p>创建资源池
+由于RGW要求专门的pool存储数据，这里手动创建这些Pool，在admin-node上执行：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph osd pool create .rgw 128 128
+ceph osd pool create .rgw.root 128 128
+ceph osd pool create .rgw.control 128 128
+ceph osd pool create .rgw.gc 128 128
+ceph osd pool create .rgw.buckets 128 128
+ceph osd pool create .rgw.buckets.index 128 128
+ceph osd pool create .rgw.buckets.extra 128 128
+ceph osd pool create .log 128 128
+ceph osd pool create .intent-log 128 128
+ceph osd pool create .usage 128 128
+ceph osd pool create .users 128 128
+ceph osd pool create .users.email 128 128
+ceph osd pool create .users.swift 128 128
+ceph osd pool create .users.uid 128 128</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>RGW 配置</p>
+</div>
+<div class="paragraph">
+<p>在master节点的/etc/ceph.conf上添加以下内容：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[client.radosgw.gateway]
+rgw frontends=fastcgi socket_port=9000 socket_host=0.0.0.0
+host=master
+keyring=/etc/ceph/ceph.client.radosgw.keyring
+log file=/var/log/radosgw/client.radosgw.gateway.log
+rgw print continue=false
+rgw content length compat = true</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>nginx 配置
+在/etc/nginx/nginx.conf中http段落中添加如下内容：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>server {
+    listen   80 default;
+    server_name master;
+    location / {
+        fastcgi_pass_header Authorization;
+        fastcgi_pass_request_headers on;
+        fastcgi_param QUERY_STRING  $query_string;
+        fastcgi_param REQUEST_METHOD $request_method;
+        fastcgi_param CONTENT_LENGTH $content_length;
+        fastcgi_param CONTENT_LENGTH $content_length;
+        if ($request_method = PUT) {
+                rewrite ^ /PUT$request_uri;
+        }
+        include fastcgi_params;
+        fastcgi_pass 127.0.0.1:9000;
+    }
+    location /PUT/ {
+        internal;
+        fastcgi_pass_header Authorization;
+        fastcgi_pass_request_headers on;
+        include fastcgi_params;
+        fastcgi_param QUERY_STRING  $query_string;
+        fastcgi_param REQUEST_METHOD $request_method;
+        fastcgi_param CONTENT_LENGTH $content_length;
+        fastcgi_param  CONTENT_TYPE $content_type;
+        fastcgi_pass 127.0.0.1:9000;
+    }
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>restart nginx服务：</p>
+</div>
+<div class="paragraph">
+<p><code>sudo systemctl restart nginx</code></p>
+</div>
+<div class="paragraph">
+<p>启动RGW</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>sudo mkdir /var/log/radosgw
+sudo chown ceph:ceph /var/log/radosgw
+
+sudo cp /usr/lib/systemd/system/ceph-radosgw@.service /usr/lib/systemd/system/ceph-radosgw@radosgw.gateway.service
+sudo systemctl start ceph-radosgw@radosgw.gateway
+sudo systemctl enable ceph-radosgw@radosgw.gateway
+
+# 查看radosgw服务状态：
+sudo systemctl status ceph-radosgw@radosgw.gateway</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>访问测试
+使用curl服务状态，如果出现下面的内容则服务正常：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@master ceph]# curl master
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"&gt;&lt;Owner&gt;&lt;ID&gt;anonymous&lt;/ID&gt;&lt;DisplayName&gt;&lt;/DisplayName&gt;&lt;/Owner&gt;&lt;Buckets&gt;&lt;/Buckets&gt;&lt;/ListAllMyBucketsResult&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>swift 操作</p>
+</div>
+<div class="paragraph">
+<p>创建用户</p>
+</div>
+<div class="paragraph">
+<p>我们前面介绍了对象存储的数据结构，数据必须存储在某个用户下面。因此，想正常的访问RGW，需要创建相应的RGW用户，并赋予相应的权限，radosgw-admin命令实现了这些功能。 执行下面命令，来创建一个名为testuser的用户：</p>
+</div>
+<div class="paragraph">
+<p><code>radosgw-admin user create --uid="testuser" --display-name="First User"</code></p>
+</div>
+<div class="paragraph">
+<p>创建子用户</p>
+</div>
+<div class="paragraph">
+<p>Swift用户是作为子用户subuser被创建的，执行以下命令：</p>
+</div>
+<div class="paragraph">
+<p>` radosgw-admin subuser create --uid=testuser --subuser=testuser:swift --access=full`</p>
+</div>
+<div class="paragraph">
+<p>用Swift的客户端访问对象存储</p>
+</div>
+<div class="paragraph">
+<p>添加Swift客户端源</p>
+</div>
+<div class="paragraph">
+<p><code>vim /etc/yum.repos.d/openstack.repo</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[centos-openstack-liberty]
+name=CentOS-7 - OpenStack liberty
+baseurl=http://vault.centos.org/centos/7.3.1611/cloud/x86_64/openstack-liberty/
+gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Centos-7</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>更新yum缓存并安装swift客户端</p>
+</div>
+<div class="paragraph">
+<p><code>yum update &amp;&amp; yum install python-swiftclient</code></p>
+</div>
+<div class="paragraph">
+<p>命令样式 Swift客户端的命令格式</p>
+</div>
+<div class="paragraph">
+<p><code>swift -A <a href="http://{IP" class="bare">http://{IP</a> ADDRESS}:{port}/auth/1.0 -U testuser:swift -K '{swift_secret_key}' list</code></p>
+</div>
+<div class="paragraph">
+<p>{swift_secret_key}为创建Swift用户时`radosgw-admin`命令返回的swift_keys&#8594;secret_key的值。如果忘记了上述内容，可以通过radosgw-admin命令查看</p>
+</div>
+<div class="paragraph">
+<p>创建容器/桶</p>
+</div>
+<div class="paragraph">
+<p><code>swift -A <a href="http://192.168.2.33/auth/1.0" class="bare">http://192.168.2.33/auth/1.0</a> -U testuser:swift -K 'WCLGOEjVBtYD3k1UsNUhQ5b029xxnIXKT9ZB8Buy' post testbucket</code></p>
+</div>
+<div class="paragraph">
+<p>查看已创建容器</p>
+</div>
+<div class="paragraph">
+<p>`swift -A <a href="http://192.168.2.33/auth/1.0" class="bare">http://192.168.2.33/auth/1.0</a> -U testuser:swift -K 'WCLGOEjVBtYD3k1UsNUhQ5b029xxnIXKT9ZB8Buy' list `</p>
+</div>
+<div class="paragraph">
+<p>向容器上传一个文件</p>
+</div>
+<div class="paragraph">
+<p>`swift -A <a href="http://192.168.2.33/auth/1.0" class="bare">http://192.168.2.33/auth/1.0</a> -U testuser:swift -K 'WCLGOEjVBtYD3k1UsNUhQ5b029xxnIXKT9ZB8Buy' upload testbucket /etc/ceph/ceph.conf `</p>
+</div>
+<div class="paragraph">
+<p>列出容器中的文件</p>
+</div>
+<div class="paragraph">
+<p><code>swift -A <a href="http://192.168.2.33/auth/1.0" class="bare">http://192.168.2.33/auth/1.0</a> -U testuser:swift -K 'WCLGOEjVBtYD3k1UsNUhQ5b029xxnIXKT9ZB8Buy' list testbucket</code></p>
+</div>
+<div class="paragraph">
+<p>查看容器状态</p>
+</div>
+<div class="paragraph">
+<p><code>swift -A <a href="http://192.168.2.33/auth/1.0" class="bare">http://192.168.2.33/auth/1.0</a> -U testuser:swift -K 'WCLGOEjVBtYD3k1UsNUhQ5b029xxnIXKT9ZB8Buy' stat testbucket</code></p>
+</div>
+<div class="paragraph">
+<p>postman 操作 swift API</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.ceph.com/en/latest/radosgw/swift/" class="bare">https://docs.ceph.com/en/latest/radosgw/swift/</a></p>
+</div>
+<div class="paragraph">
+<p>对象存储bucket中的文件位置</p>
+</div>
+<div class="paragraph">
+<p>1.获取bucket列表</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@master mnt]# radosgw-admin bucket list
+[
+    "testbucket"
+]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>2.bucket 详细信息</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@master mnt]# radosgw-admin bucket stats --bucket=testbucket
+{
+    "bucket": "testbucket",
+    "pool": "default.rgw.buckets.data",
+    "index_pool": "default.rgw.buckets.index",
+    "id": "b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1",
+    "marker": "b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1",
+    "owner": "testuser",
+    "ver": "0#9",
+    "master_ver": "0#0",
+    "mtime": "2021-03-05 16:05:03.676188",
+    "max_marker": "0#",
+    "usage": {
+        "rgw.main": {
+            "size_kb": 269,
+            "size_kb_actual": 276,
+            "num_objects": 3
+        }
+    },
+    "bucket_quota": {
+        "enabled": false,
+        "max_size_kb": -1,
+        "max_objects": -1
+    }
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>3.检查对应bucket在index中是否存在</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@master mnt]# rados -p default.rgw.buckets.index ls
+.dir.b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>4.查看对应INDEX中记录的key</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@master mnt]# rados -p default.rgw.buckets.index listomapkeys .dir.b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1
+etc/ceph/ceph.conf
+etc/ceph/mysql.png
+mysql.png</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>5.找到某个文件的分片信息</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@master 25.0_head]# rados -p default.rgw.buckets.data ls | grep mysql.png
+b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1_mysql.png</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>6.找出该分片在osd上存放的实际位置</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph osd map default.rgw.buckets.data b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1_mysql.png
+
+[root@master mnt]# ceph osd map default.rgw.buckets.data b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1_mysql.png
+osdmap e127 pool 'default.rgw.buckets.data' (26) object 'b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1_mysql.png' -&gt; pg 26.eefdd15 (26.5) -&gt; up ([1,2], p1) acting ([1,2], p1)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>7.进入存放文件的目录</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@node02 mnt]# cd /var/lib/ceph/osd/ceph-2/current/26.5_head/
+
+[root@node02 26.5_head]# ls
+b4f03075-1dfb-450f-a621-17c8a3322f60.14099.1\umysql.png__head_0EEFDD15__1a  __head_00000005__1a</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>网页访问则在`/etc/nginx/nginx.conf`的 http中添加</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># example
+
+server {
+listen     80 default;
+server_name master;
+    location /var/lib/ceph/osd/ceph-1/current/{
+                alias /var/lib/ceph/osd/ceph-1/current/;
+                autoindex on;
+	}
+}</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_centos_stream_8_ceph集群文件系统部署">1.2. centos stream 8 Ceph集群文件系统部署</h3>
+<div class="paragraph">
+<p>关闭防火墙</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>systemctl stop firewalld.service
+systemctl disable firewalld.service
+echo SELINUX=disabled&gt;/etc/selinux/config
+echo SELINUXTYPE=targeted&gt;&gt;/etc/selinux/config
+setenforce 0</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>修改主机名</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>hostnamectl set-hostname ceph1</p>
+</li>
+<li>
+<p>hostnamectl set-hostname ceph2</p>
+</li>
+<li>
+<p>hostnamectl set-hostname ceph3</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>各节点均设置</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cat &gt;&gt; /etc/hosts &lt;&lt; EOF
+192.168.2.139 ceph1
+192.168.2.140 ceph2
+192.168.2.141 ceph3
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>时间同步</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>yum install -y chrony
+systemctl enable chronyd
+systemctl start chronyd</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>ceph 源配置，版本16.2.1</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>sudo rpm --import 'https://download.ceph.com/keys/release.asc'
+
+cat &gt;&gt; /etc/yum.repos.d/ceph.repo &lt;&lt; EOF
+[ceph]
+name=Ceph packages for
+baseurl=https://download.ceph.com/rpm-16.2.1/el8/x86_64/
+enabled=1
+priority=2
+gpgcheck=1
+gpgkey=https://download.ceph.com/keys/release.asc
+
+[ceph-noarch]
+name=Ceph noarch packages
+baseurl=https://download.ceph.com/rpm-16.2.1/el8/noarch
+enabled=1
+priority=2
+gpgcheck=1
+gpgkey=https://download.ceph.com/keys/release.asc
+
+[ceph-source]
+name=Ceph source packages
+baseurl=https://download.ceph.com/rpm-16.2.1/el8/SRPMS
+enabled=0
+priority=2
+gpgcheck=1
+gpgkey=https://download.ceph.com/keys/release.asc
+EOF</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装 ceph</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>yum install epel-release -y
+yum install centos-release-ceph-*  -y
+yum install ceph -y
+
+分隔
+
+yum install centos-release-ceph-octopus.noarch</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>安装 podman</p>
+</div>
+<div class="paragraph">
+<p><code>dnf install -y podman</code></p>
+</div>
+<div class="paragraph">
+<p>安装 cephadm</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>curl --silent --remote-name --location https://github.com/ceph/ceph/raw/octopus/src/cephadm/cephadm
+
+chmod +x cephadm
+
+./cephadm add-repo --release octopus
+
+./cephadm install
+
+which cephadm
+
+cephadm install ceph-common</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>版本查询</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ceph -v
+
+podman --version
+
+cephadm version</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>mkdir -p /etc/ceph &amp;&amp; cd /etc/ceph</code></p>
+</div>
+<div class="paragraph">
+<p>创建一个可以被任何访问Ceph集群的主机访问的网络，指定mon-ip，并将生成的配置文件写进/etc/ceph目录里</p>
+</div>
+<div class="paragraph">
+<p><code>cephadm bootstrap --mon-ip 192.168.2.3</code></p>
+</div>
+<div class="paragraph">
+<p>登陆URL:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://192.168.2.3:8443/" class="bare">https://192.168.2.3:8443/</a></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>ss</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>添加主机和标签
+cephadm shell -- ceph orch host add ceph1 192.168.2.3
+
+cephadm shell -- ceph orch host add ceph2 192.168.2.4
+
+cephadm shell -- ceph orch host add ceph3 192.168.2.5
+
+
+ssh 密钥
+ceph cephadm get-pub-key &gt; ~/ceph.pub
+
+ssh-copy-id -f -i ~/ceph.pub root@ceph2
+
+ssh-copy-id -f -i ~/ceph.pub root@ceph3
+
+
+将所有主机添加到群集
+cephadm shell -- ceph orch host label add ceph1 mon
+
+cephadm shell -- ceph orch host label add ceph2 mon
+
+cephadm shell -- ceph orch host label add ceph3 mon
+
+
+通过使用主机标签来控制运行监视器的主机
+cephadm shell -- ceph orch apply mon label:mon</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>修改配置文件，各主机自行修改ip</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@ceph2 ceph]# cat /etc/ceph/ceph.conf
+# minimal ceph.conf for 8ec738f4-ad23-11eb-90a3-52540029ab56
+[global]
+	fsid = 8ec738f4-ad23-11eb-90a3-52540029ab56
+	mon_host = [v2:192.168.2.4:3300/0,v1:192.168.2.4:6789/0]
+    public_network=192.168.2.0/24
+    osd_pool_default_size = 2
+    mon_pg_warn_max_per_osd=20000</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建OSD</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>使用任何可用和未使用的存储设备创建OSD
+
+cephadm shell -- ceph orch apply osd --all-available-devices
+
+使用特定主机上的特定设备创建OSD
+
+cephadm shell -- ceph orch daemon add osd ceph1:/dev/vdb
+
+cephadm shell -- ceph orch daemon add osd ceph2:/dev/vdb
+
+cephadm shell -- ceph orch daemon add osd ceph3:/dev/vdb</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>部署cephfs的mds服务，指定集群名及mds的数量</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ ceph fs volume create &lt;fs_name&gt; --placement="&lt;placement spec&gt;"
+
+ceph orch apply mds cephfs --placement=3</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>创建 CephFS</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 格式
+$ ceph osd pool create cephfs_data &lt;pg_num&gt;
+$ ceph osd pool create cephfs_metadata &lt;pg_num&gt;
+$ ceph fs new &lt;fs_name&gt; &lt;metadata&gt; &lt;data&gt;
+
+ceph osd pool create cephfs_data 128
+
+ceph osd pool create cephfs_metadata 128
+
+ceph fs new cephfs cephfs_metadata cephfs_data
+
+
+# 查看文件系统信息
+ceph fs ls
+
+# 查看mds信息
+ceph mds stat</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>挂载cephfs</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[root@ceph1 cephfs]# cat /etc/ceph/ceph.client.admin.keyring
+[client.admin]
+	key = AQDT+JFgke4PABAAw/4LbCniSZP8qUdfLk/lSA==
+
+
+mount -t ceph 192.168.2.3:6789,192.168.2.4:6789,192.168.2.5:6789:/ /ceph/cephfs -o name=admin,secret=AQDT+JFgke4PABAAw/4LbCniSZP8qUdfLk/lSA==</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>nginx 安装使用</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>dnf install nginx -y
+
+sudo systemctl start nginx &amp;&amp; sudo systemctl enable nginx
+
+修改 `nginx.conf` 文件，在http中添加以下内容
+
+vim /etc/nginx/nginx.conf
+
+    server {
+        listen   80 default;
+        server_name master;
+
+        location /upload_static_picture     {
+            alias /ceph/cephfs;
+            autoindex on ;
+            }
+    }</pre>
+</div>
+</div>
+<hr>
+<div class="paragraph">
+<p>以下为测试检查命令</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>生成密钥
+To add the cephadm SSH key to the host:
+&gt; ceph cephadm get-pub-key &gt; ~/ceph.pub
+&gt; ssh-copy-id -f -i ~/ceph.pub root@ceph3
+
+To check that the host is reachable:
+&gt; ceph cephadm get-ssh-config &gt; ssh_config
+&gt; ceph config-key get mgr/cephadm/ssh_identity_key &gt; ~/cephadm_private_key
+&gt; ssh -F ssh_config -i ~/cephadm_private_key root@ceph3</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>查看可使用的硬盘</p>
+</div>
+<div class="paragraph">
+<p><code>ceph orch device ls</code></p>
+</div>
+<div class="paragraph">
+<p>查看当前的主机和标签</p>
+</div>
+<div class="paragraph">
+<p><code>ceph orch host ls</code></p>
+</div>
+<div class="paragraph">
+<p>查看现有的osd</p>
+</div>
+<div class="paragraph">
+<p><code>ceph osd tree</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>cd /var/lib/ceph
+
+cd /run/cephadm
+
+cd /etc/systemd/system
+
+podman ps -a
+
+podman images
+
+mount -t ceph 192.168.2.3:6789,192.168.2.4:6789,192.168.2.5:6789:/ /ceph/cephfs -o name=admin,secret=AQDT+JFgke4PABAAw/4LbCniSZP8qUdfLk/lSA==
+
+sudo dnf module reset container-tools:3.0
+
+sudo dnf module enable -y container-tools:3.0</pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_redis_chapter">2. redis</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_redis常用命令">2.1. redis常用命令</h3>
+<div class="paragraph">
+<p>redis</p>
+</div>
+<div class="paragraph">
+<p><a href="https://developer.aliyun.com/article/236383" class="bare">https://developer.aliyun.com/article/236383</a></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>redis-cli 操作</p>
+</div>
+<div class="paragraph">
+<p>登录验证</p>
+</div>
+<div class="paragraph">
+<p><code>redis-cli -h 127.0.0.1 -p 6379</code></p>
+</div>
+<div class="paragraph">
+<p>使用密码认证登录</p>
+</div>
+<div class="paragraph">
+<p><code>redis-cli -h 127.0.0.1 -p 6379 -a Password</code></p>
+</div>
+<div class="paragraph">
+<p>测试与服务器的连接是否仍然生效</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-代码 hljs" data-lang="代码">ping
+
+127.0.0.1:6379&gt; ping
+PONG</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>增删改查</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash"># set 增
+127.0.0.1:6379&gt; set name lu
+OK
+127.0.0.1:6379&gt; set age 20
+OK
+
+# keys * 查看所有的key
+127.0.0.1:6379&gt; keys *
+1) "age"
+2) "name"
+
+# 查看key为name的值
+127.0.0.1:6379&gt; get name
+"lu"
+
+# 修改key为name的值
+127.0.0.1:6379&gt; set name li
+OK
+127.0.0.1:6379&gt; get name
+"li"
+
+# 删除key为name的值
+127.0.0.1:6379&gt; del name
+(integer) 1
+127.0.0.1:6379&gt; keys *
+1) "age"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>检查给定 key 是否存在</p>
+</div>
+<div class="paragraph">
+<p><code>EXISTS key</code></p>
+</div>
+<div class="paragraph">
+<p>为给定 key 设置过期时间，以秒计。</p>
+</div>
+<div class="paragraph">
+<p><code>EXPIRE key seconds</code></p>
+</div>
+<div class="paragraph">
+<p>查看key的过期时间</p>
+</div>
+<div class="paragraph">
+<p><code>ttl key</code></p>
+</div>
+<div class="paragraph">
+<p>查看key的类型
+<code>type key</code></p>
+</div>
+<div class="paragraph">
+<p>向key追加内容</p>
+</div>
+<div class="paragraph">
+<p><code>append content</code></p>
+</div>
+<div class="paragraph">
+<p>查看key的长度</p>
+</div>
+<div class="paragraph">
+<p><code>strlen key</code></p>
+</div>
+<div class="paragraph">
+<p>java spring boot 操作redis 相关信息</p>
+</div>
+<div class="paragraph">
+<p>2.如何确定合适的maxIdle和minIdle？</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>建议maxIdle=maxTotal，为什么这么说呢？假如现在maxTotal是100，maxIdle是50，那么允许的最大空闲数是50，那么在一个高峰期，如果连接池中的50个已经通过连接池的getResource获取到了，这个时候第51个连接是要通过newJedis以及TCP三次握手建立一个新的连接，实际上这本身是有一定开销的。这样可以减少新的开销。建议预热minIdle，第一次getResource时是newJedis并建立TCP三次握手的，对于并发量较大的情况是无法容忍第一次开销的，那么可以在应用初始化的时候提前使用getResource做一些操作。</pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mongodb">3. MongoDB</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_mongodb常用命令">3.1. MongoDB常用命令</h3>
+<div class="paragraph">
+<p>MongoDB - 连接</p>
+</div>
+<div class="paragraph">
+<p>mongo -uroot -pluyu --host 127.0.0.1</p>
+</div>
+<div class="paragraph">
+<p>MongoDB 数据库</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 创建数据库(创建并使用)
+&gt; use database
+switched to db database
+
+# 查看当前数据库
+&gt; db
+database
+
+# 查看所有数据库,需有数据
+&gt; show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+lu      0.000GB
+
+# 删除当前数据库
+&gt; db.dropDatabase()
+{ "dropped" : "lu", "ok" : 1 }</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>集合</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># 创建集合，类似数据库中的表
+&gt; db.createCollection("runoob")
+
+# 查看已有集合
+&gt; show collections
+
+
+&gt; db.runoob.drop()
+true
+&gt; show tables
+
+
+
+db.lu.insert({"name": "lu"})
+
+db.lu.insert({ "_id" : { "$oid" : "551582c558c7b4fbacf16735" },
+  "name" : "MongoDB",
+  "type" : "database",
+  "count" : 1,
+  "info" : { "x" : 203, "y" : 102 } })
+
+db.col.update({'title':'MongoDB 教程'},{$set:{'title':'MongoDB'}})</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>db.createUser(
+  {
+    user: "root",
+    pwd: "luyu",
+    roles: [ "root"]
+  }
+)</p>
+</div>
+<div class="paragraph">
+<p>db.createUser(
+  {
+    user: "lu",
+    pwd: "luyu",
+    roles: [ { role: "readWrite", db: "lu" } ]
+  }
+)</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_elasticsearch">4. elasticsearch</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_elasticsearch常用命令">4.1. elasticsearch常用命令</h3>
+<div class="paragraph">
+<p>elastaticsearch</p>
+</div>
+<div class="paragraph">
+<p>检查集群的运行状况</p>
+</div>
+<div class="paragraph">
+<p>curl -X GET "localhost:9200/_cat/health?v&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>获取集群中节点的列表</p>
+</div>
+<div class="paragraph">
+<p>curl -X GET "localhost:9200/_cat/nodes?v&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>查看索引</p>
+</div>
+<div class="paragraph">
+<p>curl -X GET "localhost:9200/_cat/indices?v&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>创建一个名为“ customer”的索引</p>
+</div>
+<div class="paragraph">
+<p>curl -X PUT "localhost:9200/customer?pretty&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>索引指定ID添加内容</p>
+</div>
+<div class="paragraph">
+<p>curl -X PUT "localhost:9200/customer/doc/1?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{
+  "name": "John Doe"
+}
+'</p>
+</div>
+<div class="paragraph">
+<p>索引不指定ID的添加内容</p>
+</div>
+<div class="paragraph">
+<p>curl -X POST "localhost:9200/customer/doc?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{
+  "name": "Jane Doe"
+}
+'</p>
+</div>
+<div class="paragraph">
+<p>检索文档</p>
+</div>
+<div class="paragraph">
+<p>curl -X GET "localhost:9200/customer/doc/2?pretty&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>删除索引</p>
+</div>
+<div class="paragraph">
+<p>curl -X DELETE "localhost:9200/customer?pretty&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>修改索引内容</p>
+</div>
+<div class="paragraph">
+<p>curl -X PUT "localhost:9200/customer/doc/1?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{
+  "name": "Jane Doe"
+}
+'</p>
+</div>
+<div class="paragraph">
+<p>更新文档</p>
+</div>
+<div class="paragraph">
+<p>curl -X POST "localhost:9200/customer/doc/1/_update?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{
+  "doc": { "name": "Jane Doe" }
+}
+'</p>
+</div>
+<div class="paragraph">
+<p>更新我们之前的文档
+curl -X POST "localhost:9200/customer/doc/1/_update?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{
+  "doc": { "name": "Jane Doe", "age": 20 }
+}
+'</p>
+</div>
+<div class="paragraph">
+<p>curl -X POST "localhost:9200/customer/doc/1/_update?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{
+  "script" : "ctx._source.age += 5"
+}
+'</p>
+</div>
+<div class="paragraph">
+<p>删除ID为1的内容
+curl -X DELETE "localhost:9200/customer/doc/1?pretty&amp;pretty"</p>
+</div>
+<div class="paragraph">
+<p>批量修改内容</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>curl -X POST "localhost:9200/customer/doc/_bulk?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{"index":{"_id":"1"}}
+{"name": "John Doe" }
+{"index":{"_id":"2"}}
+{"name": "Jane Doe" }
+'
+
+curl -X POST "localhost:9200/customer/doc/_bulk?pretty&amp;pretty" -H 'Content-Type: application/json' -d'
+{"update":{"_id":"1"}}
+{"doc": { "name": "John Doe becomes Jane Doe" } }
+{"delete":{"_id":"2"}}
+'</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>kibana 配置文件详情</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.elastic.co/guide/en/kibana/current/settings.html" class="bare">https://www.elastic.co/guide/en/kibana/current/settings.html</a></p>
+</div>
+<div class="paragraph">
+<p>elasticsearch 配置文件</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.elastic.co/guide/cn/elasticsearch/guide/current/important-configuration-changes.html" class="bare">https://www.elastic.co/guide/cn/elasticsearch/guide/current/important-configuration-changes.html</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kafka">5. kafka</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_kafka基础命令">5.1. kafka基础命令</h3>
+<div class="paragraph">
+<p>yaourt -S aur/zookeeper</p>
+</div>
+<div class="paragraph">
+<p>yaourt -Qs aur/kafka</p>
+</div>
+<div class="paragraph">
+<p>systemctl start zookeeper</p>
+</div>
+<div class="paragraph">
+<p>systemctl start kafka</p>
+</div>
+<div class="paragraph">
+<p>创建一个 topic</p>
+</div>
+<div class="paragraph">
+<p>创建一个名为“test”的topic，它有一个分区和一个副本</p>
+</div>
+<div class="paragraph">
+<p>kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test</p>
+</div>
+<div class="paragraph">
+<p>list（列表）命令来查看这个topic</p>
+</div>
+<div class="paragraph">
+<p>kafka-topics.sh --list --zookeeper localhost:2181</p>
+</div>
+<div class="paragraph">
+<p>删除topic 信息</p>
+</div>
+<div class="paragraph">
+<p>rm -rf /var/lib/kafka/*</p>
+</div>
+<div class="paragraph">
+<p>producer 创建</p>
+</div>
+<div class="paragraph">
+<p>kafka-console-producer.sh --broker-list localhost:9092 --topic test
+kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092</p>
+</div>
+<div class="paragraph">
+<p>consumer 创建</p>
+</div>
+<div class="paragraph">
+<p>kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic quickstart-events --from-beginning</p>
+</div>
+<div class="paragraph">
+<p>显示使用情况信息</p>
+</div>
+<div class="paragraph">
+<p>kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_rabbitmq">6. rabbitMQ</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_rabbitmq基础命令">6.1. rabbitMQ基础命令</h3>
+<div class="paragraph">
+<p>yaourt -S community/rabbitmq
+yaourt -S erlang</p>
+</div>
+<div class="paragraph">
+<p>启动RabbitMQ管理插件，用于web界面管理</p>
+</div>
+<div class="paragraph">
+<p>rabbitmq-plugins enable rabbitmq_management</p>
+</div>
+<div class="paragraph">
+<p>创建登录账号和密码</p>
+</div>
+<div class="paragraph">
+<p>rabbitmqctl add_user admin 123456</p>
+</div>
+<div class="paragraph">
+<p>设置该用户类型</p>
+</div>
+<div class="paragraph">
+<p>rabbitmqctl set_user_tags admin administrator</p>
+</div>
+<div class="paragraph">
+<p>设置权限</p>
+</div>
+<div class="paragraph">
+<p>rabbitmqctl set_permissions -p / admin ".<strong>" ".</strong>" ".*"</p>
+</div>
+<div class="paragraph">
+<p>列出所有用户</p>
+</div>
+<div class="paragraph">
+<p>rabbitmqctl list_users</p>
+</div>
+<div class="paragraph">
+<p>删除用户：
+rabbitmqctl.bat delete_user username</p>
+</div>
+<div class="paragraph">
+<p>应用管理</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">rabbitmqctl status //显示RabbitMQ中间件的所有信息
+rabbitmqctl stop //停止RabbitMQ应用，关闭节点
+rabbitmqctl stop_app //停止RabbitMQ应用
+rabbitmqctl start_app //启动RabbitMQ应用
+rabbitmqctl restart //重置RabbitMQ节点
+rabbitmqctl force_restart //强制重置RabbitMQ节点</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>用户管理</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">rabbitmqctl add_user username password //添加用户
+rabbitmqctl delete_user username //删除用户
+rabbitmqctl change_password username newpassword //修改密码
+rabbitmqctl list_users //列出所有用户</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>权限控制管理</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">rabbitmqctl add_vhost vhostpath //创建虚拟主机
+rabbitmqctl delete_vhost vhostpath //删除虚拟主机
+rabbitmqctl list_vhosts //列出所有虚拟主机
+rabbitmqctl set_permissions [-p vhostpath] username &lt;conf&gt; &lt;write&gt; &lt;read&gt; //设置用户权限
+rabbitmqctl clear_permissions [-p vhostpath] username //删除用户权限
+rabbitmqctl list_permissions [-p vhostpath] //列出虚拟机上的所有权限
+rabbitmqctl list_user_permissions username //列出用户权限</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>集群管理</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">rabbitmqctl cluster_status //获得集群配置信息
+rabbitmqctl join_cluster rabbit@localhost --ram | --disc //加入到rabbit节点中，使用内存模式或者磁盘模式
+rabbitmqctl change_cluster_node_type disc | ram //修改存储模式
+rabbitmqctl set_cluster_name newname //修改名字</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>查看管理</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">rabbitmqctl list_queues [-p &lt;vhostpath&gt;]  //查看所有队列
+rabbitmqctl list_exchanges [-p &lt;vhostpath&gt;] //查看所有交换机
+rabbitmqctl list_bindings [-p &lt;vhostpath&gt;] //查看所有绑定
+rabbitmqctl list_connections //查看所有连接
+rabbitmqctl list_channels //查看所有信道
+rabbitmqctl list_consumers //查看所有消费者信息</code></pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2021-05-26 23:17:00 +0800
+</div>
+</div>
+<script src="js/highlight.min.js"></script>
+<script>
+if (!hljs.initHighlighting.called) {
+  hljs.initHighlighting.called = true
+  ;[].slice.call(document.querySelectorAll('pre.highlight > code')).forEach(function (el) { hljs.highlightBlock(el) })
+}
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains("stemblock")) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="js/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>
