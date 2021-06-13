@@ -765,7 +765,8 @@ p { margin-bottom: 1.25rem; }
 </li>
 <li><a href="#_redis_chapter">2. redis</a>
 <ul class="sectlevel2">
-<li><a href="#_redis常用命令">2.1. redis常用命令</a></li>
+<li><a href="#_redis_设置密码">2.1. redis 设置密码</a></li>
+<li><a href="#_redis常用命令">2.2. redis常用命令</a></li>
 </ul>
 </li>
 <li><a href="#_mongodb">3. MongoDB</a>
@@ -1848,8 +1849,10 @@ EOF</pre>
 </div>
 <div class="paragraph">
 <p><code>nginx -s reload</code>
-<mark>#</mark> Centos7 CephRGW部署及操作
-Ceph对象存储网关服务(RGW-RADOS Gateway)</p>
+<mark>#</mark> Centos7 CephRGW部署及操作</p>
+</div>
+<div class="paragraph">
+<p>Ceph对象存储网关服务(RGW-RADOS Gateway)</p>
 </div>
 <div class="paragraph">
 <p>安装ceph-radosgw</p>
@@ -2551,7 +2554,19 @@ sudo dnf module enable -y container-tools:3.0</pre>
 <h2 id="_redis_chapter">2. redis</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_redis常用命令">2.1. redis常用命令</h3>
+<h3 id="_redis_设置密码">2.1. redis 设置密码</h3>
+<div class="paragraph">
+<p><code>vim /etc/redis/redis.conf</code></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>取消注释requirepass，后面跟密码
+requirepass password</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_redis常用命令">2.2. redis常用命令</h3>
 <div class="paragraph">
 <p>redis</p>
 </div>
