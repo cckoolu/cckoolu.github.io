@@ -1,0 +1,60 @@
+# Basic
+title = "Vno Hugo"
+baseURL = "https://vno-hugo.netlify.app/"
+theme = "Vno Hugo"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    url = "http://project.onevcat.com/"
+    weight = 10
+
+[taxonomies]
+    tag = "tags"
+    
+[params]
+author = "onevcat"
+subtitle = "A blog-orientation theme for Hugo"
+description = "Vno Hugo is a port of Vno Jekyll."
+welcomeMessage = "Oh What a World"
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+coverColor = "red"
+
+[params.comment]
+disqus = "vno-hugo"
+duoshuo = ""
+
+# Take a look on https://github.com/gitalk/gitalk#usage for more info.
+[params.comment.gitalk]
+ID = ""
+secret = ""
+repo = ""
+owner = ""
+
+[params.social]
+weibo = "onevcat"
+github = "onevcat"
+twitter = "onevcat"
+gplus = "107108267983477358170"
+mail = "onev@onevcat.com"
+
+[params.ga]
+ID = "your_ga_id"
+host = "your_host"
+
+# The blog button should not be removed.
+[params.blogButton]
+title = "Blog"
+description = "Visit blog"
+
+[permalinks]
+posts = "/:year/:month/:title/"
