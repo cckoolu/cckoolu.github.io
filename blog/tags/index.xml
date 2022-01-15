@@ -4,6 +4,34 @@
     <title>Tags on cckoolu</title>
     <link>https://github.com/tags/</link>
     <description>Recent content in Tags on cckoolu</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://github.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Jul 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://github.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Say Hi</title>
+      <link>https://github.com/tags/say-hi/</link>
+      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
+      
+      <guid>https://github.com/tags/say-hi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vno</title>
+      <link>https://github.com/tags/vno/</link>
+      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
+      
+      <guid>https://github.com/tags/vno/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://github.com/tags/hugo/</link>
+      <pubDate>Mon, 19 Jul 2021 07:28:17 +0800</pubDate>
+      
+      <guid>https://github.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
