@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vno on cckoolu</title>
+    <link>https://cckoolu.github.io/tags/vno/</link>
+    <description>Recent content in Vno on cckoolu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Jul 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://cckoolu.github.io/tags/vno/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World Vno</title>
+      <link>https://cckoolu.github.io/2021/07/hello-world-vno/</link>
+      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
+      
+      <guid>https://cckoolu.github.io/2021/07/hello-world-vno/</guid>
+      <description>What&amp;rsquo;s this Vno Hugo is a theme for Hugo. It is a port of onevcat&amp;rsquo;s Vno Jekyll, which is originally developed from Dale Anthony&amp;rsquo;s Uno.
+Usage Inside the folder of your Hugo site run:
+$ git submodule add https://github.com/xslingcn/vno-hugo.git themes/vno-hugo Copy everything in the exampleSite folder to the root of your hugo site, then run hugo serve. Your site with Vno Hugo enabled should be accessible in http://localhost:1313/.
+For more information about Hugo, please visit Hugo&amp;rsquo;s site.</description>
+    </item>
+    
+  </channel>
+</rss>
