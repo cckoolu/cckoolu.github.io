@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on cckoolu</title>
-    <link>https://cckoolu.github.io/blog/tags/</link>
+    <link>https://cckoolu.github.io/tags/</link>
     <description>Recent content in Tags on cckoolu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 19 Jul 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://cckoolu.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://cckoolu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Say Hi</title>
-      <link>https://cckoolu.github.io/blog/tags/say-hi/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
+      <link>https://cckoolu.github.io/tags/say-hi/</link>
+      <pubDate>Sun, 19 Dec 2021 07:28:27 +0800</pubDate>
       
-      <guid>https://cckoolu.github.io/blog/tags/say-hi/</guid>
+      <guid>https://cckoolu.github.io/tags/say-hi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vno</title>
-      <link>https://cckoolu.github.io/blog/tags/vno/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
+      <link>https://cckoolu.github.io/tags/vno/</link>
+      <pubDate>Sun, 19 Dec 2021 07:28:27 +0800</pubDate>
       
-      <guid>https://cckoolu.github.io/blog/tags/vno/</guid>
+      <guid>https://cckoolu.github.io/tags/vno/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://cckoolu.github.io/blog/tags/hugo/</link>
+      <link>https://cckoolu.github.io/tags/hugo/</link>
       <pubDate>Mon, 19 Jul 2021 07:28:17 +0800</pubDate>
       
-      <guid>https://cckoolu.github.io/blog/tags/hugo/</guid>
+      <guid>https://cckoolu.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     

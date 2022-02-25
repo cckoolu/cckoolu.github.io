@@ -2,28 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cckoolu.github.io/blog/</loc>
+    <loc>https://cckoolu.github.io/</loc>
+    <lastmod>2021-12-19T07:28:27+08:00</lastmod>
+  </url><url>
+    <loc>https://cckoolu.github.io/posts/</loc>
+    <lastmod>2021-12-19T07:28:27+08:00</lastmod>
+  </url><url>
+    <loc>https://cckoolu.github.io/tags/say-hi/</loc>
+    <lastmod>2021-12-19T07:28:27+08:00</lastmod>
+  </url><url>
+    <loc>https://cckoolu.github.io/tags/</loc>
+    <lastmod>2021-12-19T07:28:27+08:00</lastmod>
+  </url><url>
+    <loc>https://cckoolu.github.io/2021/12/test-world-vno/</loc>
+    <lastmod>2021-12-19T07:28:27+08:00</lastmod>
+  </url><url>
+    <loc>https://cckoolu.github.io/tags/vno/</loc>
+    <lastmod>2021-12-19T07:28:27+08:00</lastmod>
+  </url><url>
+    <loc>https://cckoolu.github.io/2021/07/hello-world-vno/</loc>
     <lastmod>2021-07-19T07:28:27+08:00</lastmod>
   </url><url>
-    <loc>https://cckoolu.github.io/blog/2021/07/hello-world-vno/</loc>
-    <lastmod>2021-07-19T07:28:27+08:00</lastmod>
-  </url><url>
-    <loc>https://cckoolu.github.io/blog/posts/</loc>
-    <lastmod>2021-07-19T07:28:27+08:00</lastmod>
-  </url><url>
-    <loc>https://cckoolu.github.io/blog/tags/say-hi/</loc>
-    <lastmod>2021-07-19T07:28:27+08:00</lastmod>
-  </url><url>
-    <loc>https://cckoolu.github.io/blog/tags/</loc>
-    <lastmod>2021-07-19T07:28:27+08:00</lastmod>
-  </url><url>
-    <loc>https://cckoolu.github.io/blog/tags/vno/</loc>
-    <lastmod>2021-07-19T07:28:27+08:00</lastmod>
-  </url><url>
-    <loc>https://cckoolu.github.io/blog/tags/hugo/</loc>
+    <loc>https://cckoolu.github.io/tags/hugo/</loc>
     <lastmod>2021-07-19T07:28:17+08:00</lastmod>
   </url><url>
-    <loc>https://cckoolu.github.io/blog/2021/07/sample-post/</loc>
+    <loc>https://cckoolu.github.io/2021/07/sample-post/</loc>
     <lastmod>2021-07-19T07:28:17+08:00</lastmod>
   </url>
 </urlset>
