@@ -5,16 +5,7 @@
     <link>https://cckoolu.github.io/</link>
     <description>Recent content on cckoolu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Feb 2022 18:58:38 +0800</lastBuildDate><atom:link href="https://cckoolu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First</title>
-      <link>https://cckoolu.github.io/post/first/</link>
-      <pubDate>Fri, 25 Feb 2022 18:58:38 +0800</pubDate>
-      
-      <guid>https://cckoolu.github.io/post/first/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 19 Dec 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://cckoolu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test World Vno</title>
       <link>https://cckoolu.github.io/2021/12/test-world-vno/</link>
@@ -24,29 +15,6 @@
       <description>数据集 You’ll find this post in your posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run hugo serve, which launches a web server and auto-regenerates your site when a file is updated.
 To add new posts, simply run:
 $ hugo new posts/my-sample-post.md And you shall see the my-sample-post.</description>
-    </item>
-    
-    <item>
-      <title>Hello World Vno</title>
-      <link>https://cckoolu.github.io/2021/07/hello-world-vno/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
-      
-      <guid>https://cckoolu.github.io/2021/07/hello-world-vno/</guid>
-      <description>What&amp;rsquo;s this Vno Hugo is a theme for Hugo. It is a port of onevcat&amp;rsquo;s Vno Jekyll, which is originally developed from Dale Anthony&amp;rsquo;s Uno.
-Usage Inside the folder of your Hugo site run:
-$ git submodule add https://github.com/xslingcn/vno-hugo.git themes/vno-hugo Copy everything in the exampleSite folder to the root of your hugo site, then run hugo serve. Your site with Vno Hugo enabled should be accessible in http://localhost:1313/.
-For more information about Hugo, please visit Hugo&amp;rsquo;s site.</description>
-    </item>
-    
-    <item>
-      <title>Sample Post</title>
-      <link>https://cckoolu.github.io/2021/07/sample-post/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:17 +0800</pubDate>
-      
-      <guid>https://cckoolu.github.io/2021/07/sample-post/</guid>
-      <description>You’ll find this post in your posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run hugo serve, which launches a web server and auto-regenerates your site when a file is updated.
-To add new posts, simply run:
-$ hugo new posts/my-sample-post.md And you shall see the my-sample-post.md file in posts directory, just edit the front matter and content as you like.</description>
     </item>
     
   </channel>

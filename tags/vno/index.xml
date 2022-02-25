@@ -17,17 +17,5 @@ To add new posts, simply run:
 $ hugo new posts/my-sample-post.md And you shall see the my-sample-post.</description>
     </item>
     
-    <item>
-      <title>Hello World Vno</title>
-      <link>https://cckoolu.github.io/2021/07/hello-world-vno/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
-      
-      <guid>https://cckoolu.github.io/2021/07/hello-world-vno/</guid>
-      <description>What&amp;rsquo;s this Vno Hugo is a theme for Hugo. It is a port of onevcat&amp;rsquo;s Vno Jekyll, which is originally developed from Dale Anthony&amp;rsquo;s Uno.
-Usage Inside the folder of your Hugo site run:
-$ git submodule add https://github.com/xslingcn/vno-hugo.git themes/vno-hugo Copy everything in the exampleSite folder to the root of your hugo site, then run hugo serve. Your site with Vno Hugo enabled should be accessible in http://localhost:1313/.
-For more information about Hugo, please visit Hugo&amp;rsquo;s site.</description>
-    </item>
-    
   </channel>
 </rss>
