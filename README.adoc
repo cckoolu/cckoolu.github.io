@@ -1,3 +1,0 @@
-= cckoolu.github.io
-
-cckoolu's Blog. Composed in AsciiDoc.
